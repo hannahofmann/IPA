@@ -1,0 +1,232 @@
+<p>
+<link rel="stylesheet" href="https://use.typekt.net/qjm8gcc.css">
+	<link rel="stylesheet" href="https://use.typekit.net/hsf3yqs.css">
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'oek3fqk',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+	
+	<style>
+		
+	  h1 {
+           font-family: input-mono, monospace;
+           font-weight: 200;
+           font-style: normal;
+		   font-size: 63px;
+            color: #333; /* Change the font color */
+            margin: 37px ; /* Adjust the margins as needed */
+        }
+	 body {
+            margin: 0;
+            padding: 0;
+		    overflow: hidden;
+	    position: relative;
+	    font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+     
+        }
+	
+
+	.letter {
+	position: fixed;
+	cursor: pointer;
+   font-size: 55px;
+}
+.letter:hover {
+    color: #FCA603; /* Change the color to red when hovering */
+}
+		.letter.i {
+	left: 570px; 
+    top: 125px;
+        }
+		
+	.letter.y {
+	left: 645px; /* Change these values to your desired coordinates */
+	top: 125px;	
+}
+	.letter.ɨ {
+	left: 910px; /* Change these values to your desired coordinates */
+	top: 125px;	
+}
+	.letter.ʉ {
+	left: 990px; /* Change these values to your desired coordinates */
+	top: 125px;	
+}
+	.letter.ɯ {
+	left: 1215px; /* Change these values to your desired coordinates */
+	top: 125px;	
+}
+	.letter.u {
+	left: 1320px; /* Change these values to your desired coordinates */
+	top: 125px;	
+}
+	.letter.ɪ {
+	left: 779px; /* Change these values to your desired coordinates */
+	top: 210px;	
+}
+	.letter.ʏ {
+	left: 855px; /* Change these values to your desired coordinates */
+	top: 210px;	
+}
+	.letter.ʊ {
+	left: 1100px; /* Change these values to your desired coordinates */
+	top: 210px;	
+}
+	.letter.e {
+	left: 670px; /* Change these values to your desired coordinates */
+	top: 290px;	
+}
+	.letter.ø {
+	left: 750px; /* Change these values to your desired coordinates */
+	top: 290px;	
+}
+	.letter.ɘ {
+	left: 950px; /* Change these values to your desired coordinates */
+	top: 290px;	
+}
+		.letter.ɵ {
+	left: 1040px; /* Change these values to your desired coordinates */
+	top: 290px;	
+}
+		.letter.ɤ {
+	left: 1230px; /* Change these values to your desired coordinates */
+	top: 290px;	
+}
+		.letter.o {
+	left: 1320px; /* Change these values to your desired coordinates */
+	top: 290px;	
+}
+		.letter.ɛ {
+	left: 785px; /* Change these values to your desired coordinates */
+	top: 460px;	
+}
+		.letter.œ {
+	left: 860px; /* Change these values to your desired coordinates */
+	top: 460px;	
+}
+		.letter.ɜ {
+	left: 1015px; /* Change these values to your desired coordinates */
+	top: 460px;	
+}
+		.letter.ɞ {
+	left: 1100px; /* Change these values to your desired coordinates */
+	top: 460px;	
+}
+		.letter.ʌ {
+	left: 1240px; /* Change these values to your desired coordinates */
+	top: 460px;
+		
+}
+		.letter.ɔ {
+	left: 1315px; /* Change these values to your desired coordinates */
+	top: 460px;	
+}
+
+		.letter.æ {
+	left: 810px; /* Change these values to your desired coordinates */
+	top: 550px;	
+}
+			.letter.ɐ {
+	left: 1075px; /* Change these values to your desired coordinates */
+	top: 550px;	
+}
+			.letter.a {
+	left: 910px; /* Change these values to your desired coordinates */
+	top: 650px;	
+}
+			.letter.ɶ {
+	left: 980px; /* Change these values to your desired coordinates */
+	top: 650px;	
+}
+			.letter.ɑ {
+	left: 1240px; /* Change these values to your desired coordinates */
+	top: 650px;	
+}
+			.letter.ɒ {
+	left: 1310px; /* Change these values to your desired coordinates */
+	top: 650px;	
+}
+		
+	 .Image2 {
+            position: absolute; /* Set the position to absolute */
+            top: 35px; /* Adjust the top position as needed */
+            left: 200px; /* Adjust the left position as needed */
+		 z-index: -1;
+        }
+
+
+       
+	 #animationContainer {
+		    position: absolute;
+            width: 500px; /* Set the desired width */
+            height: 500px; /* Set the desired height */
+		    left: 0px; /* Set the desired horizontal position */
+            top: 210px;
+        }
+	   </style></p>
+<h1>Vowles</h1>
+<div class="letter i" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/01_i-1.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/1_i_301_Close_front_unrounded_vowel.mp3">i</div>
+<div class="letter y" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/02_y.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/2_y_309_Close_front_rounded_vowel.mp3">y</div>
+<div class="letter ɨ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/03_ɨ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/3_ɨ_317_Close_central_unrounded_vowel.mp3">ɨ</div>
+<div class="letter ʉ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/04_ʉ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/4_ʉ_318_Close_central_rounded_vowel.mp3">ʉ</div>
+<div class="letter ɯ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/05_ɯ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/5_ɯ_316_Close_back_unrounded_vowel.mp3">ɯ</div>
+<div class="letter u" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/02_y.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/6_u_308_Close_back_rounded_vowel.mp3">u</div>
+<div class="letter ɪ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/07_ɪ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/7_ɪ_319_Near-close_near-front_unrounded_vowel.mp3">ɪ</div>
+<div class="letter ʏ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/08_ʏ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/8_ʏ_320_Near-close_near-front_rounded_vowel.mp3">ʏ</div>
+<div class="letter ʊ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/09_ʊ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/9_ʊ_321Near-close_near-back_rounded_vowel.mp3">ʊ</div>
+<div class="letter e" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/10_e.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/10_e_302_Close-mid_front_unrounded_vowel.mp3">e</div>
+<div class="letter ø" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/11_o.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/11_o_310_Close-mid_front_rounded_vowel.mp3">ø</div>
+<div class="letter ɘ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/12_ɘ-.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/12_ɘ_397_Close-mid_central_unrounded_vowel.mp3">ɘ</div>
+<div class="letter ɵ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/13_ɵ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/13_ɵ_323_Close-mid_central_rounded_vowel.mp3">ɵ</div>
+<div class="letter ɤ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/14_ɤ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/14_ɤ_315_Close-mid_back_unrounded_vowel.mp3">ɤ</div>
+<div class="letter o" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/15_o.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/15_o_307_Close-mid_back_rounded_vowel.mp3">o</div>
+<div class="letter ɛ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/17_ɛ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/17_ɛ_303_Open-mid_front_unrounded_vowel.mp3">ɛ</div>
+<div class="letter œ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/18_oe.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/18_oe_311_Open-mid_front_rounded_vowel.mp3">œ</div>
+<div class="letter ɜ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/19_ɜ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/19_ɜ_326_Open-mid_central_unrounded_vowel.mp3">ɜ</div>
+<div class="letter ɞ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/20_0Aɞ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/20_ɞ_395_Open-mid_central_rounded_vowel.mp3">ɞ</div>
+<div class="letter ʌ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/21_ʌ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/21_ʌ_314_Open-mid_back_unrounded_vowel.mp3">ʌ</div>
+<div class="letter ɔ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/22_ɔ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/22_ɔ_306_Open-mid_back_rounded_vowel.mp3">ɔ</div>
+<div class="letter æ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/23_ae.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/23_ae_325_Near-open_front_unrounded_vowel.mp3">æ</div>
+<div class="letter ɐ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/24_0Aɐ0A.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/24_ɐ_324_Near-open_central_unrounded_vowel.mp3">ɐ</div>
+<div class="letter a" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/27_a.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/25_a_304_Open_front_unrounded_vowel.mp3">a</div>
+<div class="letter ɶ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/26_ɶ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/26_ɶ_312_Open_front_rounded_vowel.mp3">ɶ</div>
+<div class="letter ɑ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/25_a.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/27_a_305_Open_back_unrounded_vowel.mp3">ɑ</div>
+<div class="letter ɒ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/28_ɒ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/28_ɒ_313_Open_back_rounded_vowel.mp3">ɒ</div>
+<!-- Add more letter divs as needed -->
+
+
+
+<img class="Image2" src="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/vowles.jpg" alt="Image2" width="1300" height="740">
+
+<div id="animationContainer"> </div>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js"></script> <script>
+    document.querySelectorAll(".letter").forEach(letter => {
+        letter.addEventListener("click", function() {
+            const animationPath = this.getAttribute("data-animation");
+            const soundPath = this.getAttribute("data-sound");
+
+            const animationContainer = document.getElementById("animationContainer");
+            animationContainer.innerHTML = ""; // Clear previous animation
+
+            const animation = lottie.loadAnimation({
+                container: animationContainer,
+                renderer: "svg",
+                loop: false,
+                autoplay: true,
+                path: animationPath
+            });
+
+            const audio = new Audio(soundPath);
+            audio.play();
+
+           
+        });
+    });
+</script></p>
