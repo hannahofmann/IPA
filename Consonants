@@ -1,0 +1,945 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.typekit.net/gck7gbc.css"> 
+	<link rel="stylesheet" href="https://use.typekit.net/hsf3yqs.css">
+</head>
+	
+<style>
+        table {
+            border-collapse: collapse;
+            width: 90%; 
+            margin: 50px auto; 
+            background: transparent; 
+		    font-family: "input-mono", monospace;
+        }
+
+        th { 
+			border-style: solid;
+            border: 2px;
+			font-family: "input-mono", monospace;
+			background: transparent;
+           
+        }
+
+        th {
+			padding-left: 10px;
+			padding-right: 10px;
+            border: 2px;  
+			border-style: solid;
+            background: transparent;
+        }
+
+        td {
+			padding: 5px;
+            text-align: center;
+        }
+  h2	{ 
+	  text-align: left;
+	  font-family: input-mono-compressed, monospace;
+      font-weight: 500;
+      font-style: normal;
+	  font-size: 20;
+	  display: inline-block;
+      width: 580px; 
+			
+        }
+    .ppopup {
+        position: fixed;
+        top: 15%;
+        left: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+.ppopup-content {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 70%;
+    position: relative; 
+    font-family: "Input Mono", monospace;
+}
+
+.pppopup {
+        position: fixed;
+        top: 25%;
+        left: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+.pppopup-content {
+    background:#0074D6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 70%;
+    position: relative; 
+    font-family: "Input Mono", monospace;
+}
+.closeButton2 {
+    font-family: "Input Mono", monospace;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: #0074D6;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    z-index: 1000;
+}
+.closeButton {
+    font-family: "Input Mono", monospace;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    z-index: 1000;
+}
+.Button {
+    font-family: "Input Mono", monospace;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    z-index: 1000;
+}	
+.divider-small {
+	display: inline-block;
+    align-items: center;
+    margin-right: 5px; 
+    text-align: left;
+    padding: 5px; 
+    color: black; 
+	font-family: "fira-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.divider-small:hover {
+    display: inline-block;
+    margin-right: 5px; 
+    text-align: left;
+	width: 5px; 
+    padding: 5px;
+    color: #FCA603; 
+	font-family: "fira-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}   
+
+.divider {
+	display: inline-block;
+    align-items: center;
+    margin-right: 2px; 
+    text-align: center;
+    padding: 5px; 
+    color: black; 
+    font-family: "fira-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.divider:hover {
+    display: inline-block;
+    margin-right: 2px; 
+    text-align: left;
+    padding: 5px; 
+    color: #FCA603; 
+} 
+	
+.popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            width: 500px;
+            height: 500px;
+            z-index: 999;
+            padding: 0px;
+        }
+.animationContainer {
+		    position: absolute;
+            width: 500px; 
+            height: 500px; 
+		    left: 0px; 
+            top: 210px;
+	        background: white;
+	        display: none;
+        }
+	
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 99;
+        }
+	
+    </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+<body>
+	
+<div style="display: flex; align-items: center;">
+    <h2>
+        <div class="text" onclick="showPpopup(1)">Pulmonic consonants</div>
+    </h2>
+    <button class="Button" onclick="window.location.href='https://hanhof2.dreamhosters.com/anatomy/'">Anatomy</button>
+</div>
+    <table border="1">
+<div class="ppopup" style="display: none;">
+    <div class="ppopup-content">
+        <button class="closeButton" onclick="closePpopup(1)">Close</button>
+        <p class="additional-text">
+Pulmonic consonants are sounds produced by expelling air from the lungs while obstructing or constricting the airflow in the vocal tract.</p>
+    </div>
+</div>
+		<tr>
+
+			<th></th>
+			<th><div class="text" onclick= "showPppopup(4)">Bilabial</div></th>
+			<th><div class="text" onclick= "showPppopup(5)">Labiodental</div></th>
+			<th><div class="text" onclick= "showPppopup(6)">Dental</div></th>
+			<th><div class="text" onclick= "showPppopup(7)">Alveolar</div></th>
+			<th><div class="text" onclick= "showPppopup(8)">Post alveolar</div></th>
+			<th><div class="text" onclick= "showPppopup(9)">Retroflex</div></th>
+			<th><div class="text" onclick= "showPppopup(10)">Palatal</div></th>
+			<th><div class="text" onclick= "showPppopup(11)">Velar</div></th>
+			<th><div class="text" onclick= "showPppopup(12)">Uvular</div></th>
+			<th><div class="text" onclick= "showPppopup(13)">Pharyngeal</div></th>
+			<th><div class="text" onclick= "showPppopup(14)">Glottal</div></th>
+        </tr>
+        <tr>
+			<td><div class="text" onclick= "showPppopup(15)">Plosive</div></td>
+			<td>
+            <span class="divider-small letter" 
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/29_p.json" 
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/29_p_101_Voiceless_bilabial_plosive.mp3">p</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/30_b.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/30_b_102_Voiced_bilabial_plosive.mp3">b</span>
+			</td>
+			<td></td>
+			<td></td>
+			<td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/31_t.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/31_t_103_Voiceless_alveolar_plosive.mp3">t</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/32_d.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/32_d_104_Voiced_alveolar_plosive.mp3">d</span>
+        </td>
+			<td> </td>
+			<td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/33_ʈ.json"
+            data-sound="">ʈ</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/34_ɖ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/33_ʈ_105_Voiceless_retroflex_stop.mp3">ɖ</span>
+        </td>
+			
+			<td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/35_c.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/35_c_107_Voiceless_palatal_plosive.mp3">c</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/36_ɟ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/36_ɟ_108_Voiced_palatal_plosive.mp3">ɟ</span>
+        </td>
+			
+			<td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/37_k.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/37_k_109_Voiceless_velar_plosive.mp3">k</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/38_ɡ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/38_ɡ_110_Voiced_velar_plosive.mp3">g</span>
+        </td>
+			
+			<td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/39_q.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/39_q_111_Voiceless_uvular_plosive.mp3">q</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/40_ɢ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/40_ɢ_112_Voiced_uvular_stop.mp3">ɢ</span>
+        </td>
+			<td></td>
+			<td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/41_ʔ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/41_ʔ_113_Glottal_stop.mp3">ʔ</span>
+            <span class="divider-small letter"></span>
+        </td>
+        </tr>
+		
+        <tr>
+            <td><div class="text" onclick= "showPppopup(16)">Nasal</div></td>
+            <td>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/42_m.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/42_m_114_Bilabial_nasal.mp3">m</span>
+                <span class="divider-small letter"></span>
+            </td>			
+            
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/43_ɱ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/43_ɱ_115_Labiodental_nasal.mp3">ɱ</span>
+            </td>
+            <td></td>
+            <td><span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/44_n.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/44_n_116_Alveolar_nasal.mp3">n</span></td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/45_ɳ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/45_ɳ_117_Retroflex_nasal.mp3">ɳ</span>
+            </td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/46_ɲ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/46_ɲ_118_Palatal_nasal.mp3">ɲ</span>
+            </td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/47_n.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/47_n_119_Velar_nasal.mp3">ŋ</span>
+            </td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/48_ɴ-.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/48_ɴ_120_Uvular_nasal.mp3">ɴ</span>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><div class="text" onclick= "showPppopup(17)">Trill</div></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/49_ʙ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/49_ʙ_121_Bilabial_trill.mp3">ʙ</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td><span class="letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/50_r.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/50_r_122_Alveolar_trill.mp3">r</span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/51_ʀ-.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/51_ʀ_123_Uvular_trill.mp3">ʀ</span>
+            </td>
+			<td></td>
+			<td></td>
+			<td></td>
+        </tr>
+        <tr>
+            <td><div class="text" onclick= "showPppopup(18)">Tap or Flap</div></td>	
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/52_ⱱ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/52_ⱱ_184_Labiodental_flap.mp3">ⱱ</span>
+            </td>
+            <td></td>
+            <td><span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/53_ɾ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/53_ɾ_124_Alveolar_tap.mp3">ɾ</span></td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/54_ɽ-.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/54_ɽ_125_Retroflex_flap.mp3">ɽ</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       <tr>
+        <td><div class="text" onclick= "showPppopup(19)">Fricative</div></td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/55_ɸ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/55_ɸ_126_Voiceless_bilabial_fricative.mp3">ɸ</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/56_β.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/56_β_127_Voiced_bilabial_fricative.mp3">β</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/57_f.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/57_f_128_Voiceless_labiodental_fricative.mp3">f</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/58_v.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/58_v_129_Voiced_labiodental_fricative.mp3">v</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/59_θ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/59_θ_130_Voiceless_dental_fricative.mp3">θ</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/60_d.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/60_d_131_Voiced_dental_fricative.mp3">ð</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/61_s.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/61_s_132_Voiceless_alveolar_sibilant.mp3">s</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/62_z.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/62_z_133_Voiced_alveolar_sibilant.mp3">z</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/63_ʃ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/63_ʃ_134_Voiceless_palato-alveolar_sibilant.mp3">ʃ</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/64_ʒ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/64_ʒ_135_Voiced_palato-alveolar_sibilant.mp3">ʒ</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/65_ʂ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/65_ʂ_136_Voiceless_retroflex_sibilant.mp3">ʂ</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/66_ʐ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/66_ʐ_137_Voiced_retroflex_sibilant.mp3">ʐ</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/67_c.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/67_c_138_Voiceless_palatal_fricative.mp3">ç</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/68_ʝ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/68_ʝ_139_Voiced_palatal_fricative.mp3">ʝ</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/69_x.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/69_x_140_Voiceless_velar_fricative.mp3">x</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/70_ɣ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/70_ɣ_141_Voiced_velar_fricative.mp3">ɣ</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/71_χ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/71_χ_142_Voiceless_uvular_fricative.mp3">χ</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/72_ʁ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/72_ʁ_143_Voiced_uvular_fricative.mp3">ʁ</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/73_h.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/73_h_144_Voiceless_pharyngeal_fricative.mp3">ħ</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/74_ʕ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/74_ʕ_145_Voiced_pharyngeal_fricative.mp3">ʕ</span>
+        </td>
+        <td>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/75_h.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/75_h_146_Voiceless_glottal_fricative.mp3">h</span>
+            <span class="divider-small letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/76_ɦ.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/76_ɦ_147_Voiced_glottal_fricative.mp3">ɦ</span>
+        </td>
+    </tr>
+		<tr>
+            <td><div class="text" onclick= "showPppopup(20)">Lateral Fricative</div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/77_ɬ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/77_ɬ_148_Voiceless_alveolar_lateral_fricative.mp3">ɬ</span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/78_ɮ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/78_ɮ_149_Voiced_alveolar_lateral_fricative.mp3">ɮ</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+			<td></td>
+            <td></td>
+            <td></td>
+			<td></td>
+        </tr>
+		<tr>
+            <td><div class="text" onclick= "showPppopup(21)">Approximant</div></td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/79_ʋ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/79_ʋ_150_Labiodental_approximant.mp3">ʋ</span>
+            </td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/80_ɹ-.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/80_ɹ_151_Alveolar_approximant.mp3">ɹ</span>
+            </td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/81_ɻ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/81_ɻ_152_Retroflex_approximant.mp3">ɻ</span>
+            </td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/82_j-.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/82_j_153_Palatal_approximant.mp3">j</span>
+            </td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/83_ɰ-.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/83_ɰ_154_Voiced_velar_approximant.mp3">ɰ</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+		<tr>
+            <td><div class="text" onclick= "showPppopup(22)">Lateral</div></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/84_l.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/84_l_155_Alveolar_lateral_approximant.mp3">l</span>
+            </td>
+            <td></td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/85_ɭ.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/85_ɭ_156_Retroflex_lateral_approximant.mp3">ɭ</span>
+            </td>
+            <td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/86_ʎ-.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/86_ʎ_157_Palatal_lateral_approximant.mp3">ʎ</span>
+            </td>
+			<td>
+                <span class="divider-small"></span>
+                <span class="divider-small letter"
+                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/87_L.json"
+                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/87_ʟ_158_Velar_lateral_approximant.mp3">ʟ</span>
+            </td>
+			<td></td>
+			<td></td>
+			<td></td>
+        </tr>
+    </table>
+	
+<br>
+<h2>
+	<div class="text" onclick= "showPpopup(2)">Non-pulmonic consonants</div>
+	</h2>
+	
+<div class="ppopup" style="display: none;">
+    <div class="ppopup-content">
+        <button class="closeButton" onclick="closePpopup(2)">Close</button>
+        <p class="additional-text">
+Non-pulmonic consonants are a type of consonant sounds produced without solely using air from the lungs (as in pulmonic consonants). Instead, they use other airstream mechanisms, such as using the glottis to push out air. 
+An example of a non-pulmonic consonant is the "click" sounds found in some African languages, where the airflow is created by sucking air into the mouth. </p>
+    </div>
+</div>
+	
+<table border="1">
+
+    <tr>
+        <th><div class="text" onclick= "showPppopup(1)">Clicks</div></th>
+        <th><div class="text" onclick= "showPppopup(2)">Voiced implosives</div></th>
+        <th><div class="text" onclick= "showPppopup(3)">Ejectives</div></th>
+        
+    </tr>
+    <tr>
+        
+        <td>
+        <span class="divider letter" 
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/88_ʘBilabial.json" 
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/88_ʘ_176_Bilabial_click.mp3">ʘ Bilabial</span>
+        </td>
+        <td>
+        <span class="divider letter"
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/93_ɓ-Bilabial.json"
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/93_ɓ_160_Voiced_bilabial_implosive.mp3">ɓ Bilabial</span>
+        </td>
+        <td>
+            <span class="divider letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/98_pʼ-Bilabal.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/98_-pʼ_Bilabial_ejective_plosive.mp3">pʼ Bilabial</span>
+        </td>
+    </tr>
+
+    <tr>
+        
+        <td>
+        <span class="divider letter" 
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/89_ǀ-Dental.json" 
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/89_ǀ_177_Dental_click.mp3">ǀ Dental</span>
+        </td>
+        <td>
+        <span class="divider letter"
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/94_ɗDentalalveolar.json"
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/94_ɗ_162_Voiced_alveolar_implosive.mp3">ɗ Dental/alveolar</span>
+        </td>
+        <td>
+            <span class="divider letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/99_tʼDentalalveolar.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/99_tʼ_Alveolar_ejective_plosive.mp3">tʼ Dental/alveolarl</span>
+        </td>
+    </tr>
+    <tr>
+        
+        <td>
+        <span class="divider letter" 
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/90_ǃ-Postalveolar.json" 
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/90_ǃ_178_Alveolar_lateral_click.mp3">ǃ(Post)alveoalar</span>
+        </td>
+        <td>
+        <span class="divider letter"
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/95_-ʄ-Palatal.json"
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/95_ʄ_164_Voiced_palatal_implosive.mp3">ʄ Palatal</span>
+        </td>
+        <td>
+            <span class="divider letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/100_kʼVelar.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/100_kʼ_Velar_ejective_plosive.mp3">kʼ Velar</span>
+        </td>
+    </tr>
+    <tr>
+        
+        <td>
+        <span class="divider letter" 
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/91_ǂ-Palatoalveolar.json" 
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/91_ǂ_179_Palatoalveolar_click.mp3">ǂ Palatoalveolar</span>
+        </td>
+        <td>
+        <span class="divider letter"
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/96_ɠ_Velar.json"
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/96_ɠ_166_Voiced_velar_implosive.mp3">ɠ Velar</span>
+        </td>
+        <td>
+            <span class="divider letter"
+            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/101_sʼAlveolar-fricative.json"
+            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/101_sʼ_Alveolar_ejective_fricative.mp3">sʼ Alveolar fricative</span>
+        </td>
+    </tr>
+    
+    <tr>
+        
+        <td>
+        <span class="divider letter" 
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/92_ǁ-Alveolar-lateral.json" 
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/92_ǁ_180_Postalveolar_click.mp3">ǁ Alveolar lateral</span>
+        </td>
+        <td>
+        <span class="divider letter"
+        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/97_ʛUvular.json"
+        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/97_ʛ_168_Voiced_uvular_implosive.mp3">ʛ	Uvular</span>
+        </td>
+        <td></td>
+    </tr>  
+    </table>
+
+ <div class="popup-overlay" id="popupOverlay"></div>
+<div class="popup" id="popupContainer">
+        <button id="closeButton" onclick="closePopup()">Close</button>
+        <div id="popupContent"></div>
+    </div>
+
+<div class="pppopup" style="display: none;">
+        <div class="pppopup-content">
+            <button class="closeButton2" onclick="closePppopup(1)">Close</button>
+            <p class="additional-text">
+    
+Click consonants are speech sounds produced by creating suction in the oral cavity, and then releasing it suddenly. </p>
+        </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(2)">Close</button>
+        <p class="additional-text">
+            Implosive consonants are speech sounds produced by inhaling air into the oral cavity and then closing it off. When the closure is released, a popping or implosive sound is created. 
+            Because of this mix they are in between Clicks and Ejectives in this table.</p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(3)">Close</button>
+        <p class="additional-text">
+            Ejective consonants are speech sounds produced by closing the vocal tract and glottis (the space between the vocal cords) simultaneously, causing a release of air pressure that results in a popping sound. </p>  </div>
+</div>
+
+
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(4)">Close</button>
+        <p class="additional-text">
+            Sounds that are produced by bringing both of your lips together. 
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(5)">Close</button>
+        <p class="additional-text">
+            Sounds that are produced by touching your bottom lip to your upper teeth. 
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(6)">Close</button>
+        <p class="additional-text">
+         Sounds that are articulated by placing the tip of your tongue against your upper front teeth.        
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(7)">Close</button>
+        <p class="additional-text">
+            Sounds that are produced by bringing the front part of your tongue into contact with the alveolar ridge, just behind your upper front teeth. 
+ 
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(8)">Close</button>
+        <p class="additional-text">
+            Sounds  that are articulated slightly farther back in the mouth than alveolar sounds. 
+  
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(9)">Close</button>
+        <p class="additional-text">
+            Sounds that are produced with the tongue curled or "retroflexed" backward.  
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(10)">Close</button>
+        <p class="additional-text">
+            Sounds produced by raising the front part of the tongue toward the hard palate.   
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(11)">Close</button>
+        <p class="additional-text">
+            Sounds that are produced by bringing the back of your tongue into contact with the soft palate or velum.  
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(12)">Close</button>
+        <p class="additional-text">
+            Sounds that are articulated with the back of the tongue against the uvula, a part of the throat. 
+  
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(13)">Close</button>
+        <p class="additional-text">
+            Articulated in the pharynx, which is in the throat.  
+  
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(14)">Close</button>
+        <p class="additional-text">
+            Sounds that are produced by closing or restricting the airflow at the level of the glottis or the space between the vocal cords.  
+  
+        </p>
+    </div>
+</div>
+
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(15)">Close</button>
+        <p class="additional-text">
+            These sounds involve a complete closure of the vocal tract followed by a sudden release of air, creating bursts of sound. 
+        </p>
+    </div>
+</div>
+
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(16)">Close</button>
+        <p class="additional-text">
+            Nasal sounds are produced when the velum (soft part of the roof of the mouth) is lowered, allowing air to pass through the nose while the mouth remains closed. 
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(17)">Close</button>
+        <p class="additional-text">
+            Trills are produced by rapidly vibrating one articulator (for example the tongue) against another.
+
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(18)">Close</button>
+        <p class="additional-text">
+            This manner of speech involves a quick, single contact between two articulators. 
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(19)">Close</button>
+        <p class="additional-text">
+            Fricatives are produced by forcing air through a narrow constriction between articulators (For example between the teeth and lip), creating a continuous, turbulent airflow.
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(20)">Close</button>
+        <p class="additional-text">
+            These sounds are fricatives with a lateral release, meaning air flows out over the sides of the tongue.        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(21)">Close</button>
+        <p class="additional-text">
+            Approximants are produced by bringing articulators close together but not causing a turbulent airflow. 
+        </p>
+    </div>
+</div>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(22)">Close</button>
+        <p class="additional-text">
+            These are sounds where the airstream proceeds along one or both of the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth.        </p>
+    </div>
+</div>
+<script>
+	
+        document.querySelectorAll(".letter").forEach(letter => {
+            letter.addEventListener("click", function () {
+                const animationPath = this.getAttribute("data-animation");
+                const soundPath = this.getAttribute("data-sound");
+
+                const popupOverlay = document.getElementById("popupOverlay");
+                const popupContainer = document.getElementById("popupContainer");
+                const popupContent = document.getElementById("popupContent");
+
+                popupOverlay.style.display = "block";
+                popupContainer.style.display = "block";
+
+                popupContent.innerHTML = ""; 
+
+                const animation = lottie.loadAnimation({
+                    container: popupContent,
+                    renderer: "svg",
+                    loop: false,
+                    autoplay: true,
+                    path: animationPath
+                });
+
+                const audio = new Audio(soundPath);
+                audio.play();
+            });
+        });
+
+        function closePopup() {
+            const popupOverlay = document.getElementById("popupOverlay");
+            const popupContainer = document.getElementById("popupContainer");
+
+            popupOverlay.style.display = "none";
+            popupContainer.style.display = "none";
+            lottie.destroy();
+        }
+		 function showPpopup(index) {
+            const ppopups = document.querySelectorAll(".ppopup");
+            ppopups[index - 1].style.display = "block";
+        }
+
+      function closePpopup(index) {
+    const ppopup = document.querySelectorAll(".ppopup")[index - 1];
+    ppopup.style.display = "none";
+}
+
+function showPppopup(index) {
+            const pppopups = document.querySelectorAll(".pppopup");
+            pppopups[index - 1].style.display = "block";
+        }
+
+function closePppopup(index) {
+    const pppopup = document.querySelectorAll(".pppopup")[index - 1];
+    pppopup.style.display = "none";
+}
+    </script>
+</body>
+
+</html>
