@@ -12,6 +12,20 @@
     font-style: normal;
     color: black; 
 }   
+	.additional-text
+	{
+    font-family: input-mono, monospace;
+    font-weight: 300;
+    font-style: normal;
+    color: white; 
+}   
+	.moretext
+	{
+    font-family: input-mono, monospace;
+    font-weight: 300;
+    font-style: normal;
+    color: black; 
+}   
         table {
             border-collapse: collapse;
             width: 90%; 
@@ -49,7 +63,7 @@
 	  display: inline-block;	
         }
 	
-    .ppopup {
+.ppopup {
         position: fixed;
         top: 15%;
         left: center;
@@ -95,7 +109,7 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    background: black;
+    background: white;
     color: #0074D6;
     border: none;
     padding: 5px 10px;
@@ -103,7 +117,7 @@
     border-radius: 3px;
     z-index: 1000;
 }
-#closeButton {
+.closeButton {
 		font-family: input-mono, monospace;
         position: absolute;
         top: 10px;
@@ -116,8 +130,9 @@
         border-radius: 3px;
         z-index: 1000; 
     }
+	
 .Button {
-    font-family: "Input Mono", monospace;
+    font-family: Input Mono, monospace;
     top: 10px;
     right: 10px;
 	margin-left: 40px;
@@ -220,7 +235,7 @@
 <div class="ppopup" style="display: none;">
     <div class="ppopup-content">
         <button class="closeButton" onclick="closePpopup(1)">Close</button>
-        <p class="additional-text">
+        <p class="moretext">
 Pulmonic consonants are sounds produced by expelling air from the lungs while obstructing or constricting the airflow in the vocal tract.</p>
     </div>
 </div>
@@ -607,7 +622,7 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
 <div class="ppopup" style="display: none;">
     <div class="ppopup-content">
         <button class="closeButton" onclick="closePpopup(2)">Close</button>
-        <p class="additional-text">
+        <p class="moretext">
 Non-pulmonic consonants are a type of consonant sounds produced without solely using air from the lungs (as in pulmonic consonants). Instead, they use other airstream mechanisms, such as using the glottis to push out air. 
 An example of a non-pulmonic consonant is the "click" sounds found in some African languages, where the airflow is created by sucking air into the mouth. </p>
     </div>
