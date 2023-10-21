@@ -911,6 +911,11 @@ Click consonants are speech sounds produced by creating suction in the oral cavi
             These are sounds where the airstream proceeds along one or both of the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth.        </p>
     </div>
 </div>
+<br>
+<p><span style="font-family: input mono;">
+    Each audio clip is the work of Peter Isotalo, Via: Wikimedia Commons <a href="https://hanhof2.dreamhosters.com/anatomy/"><span style="text-decoration: underline; color: #0074D6; ">User:Denelson83</span></a> for more info.</span>
+</p>
+<br>
 <script>
 	
         document.querySelectorAll(".letter").forEach(letter => {
