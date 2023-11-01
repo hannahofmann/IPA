@@ -21,12 +21,13 @@
 			position: relative;
 			width: 1170px; /* Match the width of your image */
 			margin: 0 auto; /* Center the content horizontally */
-			z-index: -1;
+			
 		}
 		.letter {
 			position: absolute;
 			cursor: pointer;
 			font-size: 55px;
+			
 		}
 		.letter:hover {
 			color: #FCA603; /* Change the color to red when hovering */
@@ -90,6 +91,10 @@
 		.letter.o {
 			left: 1050px;
 			top: 195px;
+		}
+		.letter ə {
+			left: 700px;
+			top: 240px;
 		}
 		.letter.ɛ {
 			left: 535px;
@@ -163,18 +168,18 @@
 			background: white;
 			width: 500px;
 			height: 500px;
-			z-index: 999;
 			padding: 0px;
+			z-index: 999;
 		}
 		#animationContainer {
 			position: absolute;
 			width: 500px;
 			height: 500px;
-			left: 0px; /* Set the desired horizontal position */
+			left: 0px; 
 			top: 210px;
 			background: white;
 			display: none;
-			z-index: 999;
+			
 		}
 		.popup-overlay {
 			display: none;
@@ -197,13 +202,14 @@
 			padding: 5px 10px;
 			cursor: pointer;
 			border-radius: 3px;
+			z-index: 1000; 
 			
 		}
 		.scrollable-content {
 			position: relative;
 			overflow: auto;
 			height: 100vh; 
-			z-index: -1;
+			
 		}
 		
 	h2	{ 
@@ -242,6 +248,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 			
 		}
 		t2 {
@@ -252,6 +259,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 		}
 		t3 {
 			position:relative;
@@ -261,6 +269,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 		}
 		t3 {
 			position:relative;
@@ -270,6 +279,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 		}
 		t4 {
 			position:relative;
@@ -279,6 +289,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 		}
 		t5 {
 			position:relative;
@@ -288,6 +299,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 		}
 		t6 {
 			position:relative;
@@ -297,6 +309,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 		}
 		t7 {
 			position:relative;
@@ -306,6 +319,7 @@
 			font-weight: 500;
 			font-style: normal;
 			font-size: 33px;
+			z-index:2;
 		}
 .pppopup {
         position: fixed;
@@ -326,6 +340,7 @@
     max-width: 70%;
     position: relative; 
     font-family: "Input Mono", monospace;
+	z-index: 999;
 }
 .closeButton2 {
     font-family: "Input Mono", monospace;
@@ -347,7 +362,7 @@
     <h2>
         Vowels
     </h2>
-    <button class="Button" onclick="window.location.href='https://hanhof2.dreamhosters.com/anatomy/'">Anatomy</button>
+    <button class="Button" onclick="window.location.href='https://ipaudiovisual.com/anatomy/'">Anatomy</button>
 </div>
 	<t1 onclick= "showPppopup(1)">Front</t1>
 	<t2 onclick= "showPppopup(2)">Central</t2>
@@ -419,37 +434,38 @@ A open-mid vowel is characterized by the tongue being positioned the tongue is p
 </div>	
 	  <div class="scrollable-content">
       <div class="content-container">
-<div class="letter i" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/01_i.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/1_i_301_Close_front_unrounded_vowel.mp3">i</div>
-<div class="letter y" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/02_y.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/2_y_309_Close_front_rounded_vowel.mp3">y</div>
-<div class="letter ɨ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/03_ɨ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/3_ɨ_317_Close_central_unrounded_vowel.mp3">ɨ</div>
-<div class="letter ʉ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/04_ʉ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/4_ʉ_318_Close_central_rounded_vowel.mp3">ʉ</div>
-<div class="letter ɯ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/05_ɯ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/5_ɯ_316_Close_back_unrounded_vowel.mp3">ɯ</div>
-<div class="letter u" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/06_u.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/6_u_308_Close_back_rounded_vowel.mp3">u</div>
-<div class="letter ɪ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/07_ɪ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/7_ɪ_319_Near-close_near-front_unrounded_vowel.mp3">ɪ</div>
-<div class="letter ʏ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/08_ʏ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/8_ʏ_320_Near-close_near-front_rounded_vowel.mp3">ʏ</div>
-<div class="letter ʊ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/09_ʊ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/9_ʊ_321Near-close_near-back_rounded_vowel.mp3">ʊ</div>
-<div class="letter e" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/10_e.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/10_e_302_Close-mid_front_unrounded_vowel.mp3">e</div>
-<div class="letter ø" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/11_o.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/11_o_310_Close-mid_front_rounded_vowel.mp3">ø</div>
-<div class="letter ɘ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/12_ɘ-.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/12_ɘ_397_Close-mid_central_unrounded_vowel.mp3">ɘ</div>
-<div class="letter ɵ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/13_ɵ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/13_ɵ_323_Close-mid_central_rounded_vowel.mp3">ɵ</div>
-<div class="letter ɤ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/14_ɤ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/14_ɤ_315_Close-mid_back_unrounded_vowel.mp3">ɤ</div>
-<div class="letter o" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/15_o.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/15_o_307_Close-mid_back_rounded_vowel.mp3">o</div>
-<div class="letter ɛ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/17_ɛ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/17_ɛ_303_Open-mid_front_unrounded_vowel.mp3">ɛ</div>
-<div class="letter œ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/18_oe.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/18_oe_311_Open-mid_front_rounded_vowel.mp3">œ</div>
-<div class="letter ɜ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/19_ɜ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/19_ɜ_326_Open-mid_central_unrounded_vowel.mp3">ɜ</div>
-<div class="letter ɞ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/20_0Aɞ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/20_ɞ_395_Open-mid_central_rounded_vowel.mp3">ɞ</div>
-<div class="letter ʌ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/21_ʌ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/21_ʌ_314_Open-mid_back_unrounded_vowel.mp3">ʌ</div>
-<div class="letter ɔ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/22_ɔ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/22_ɔ_306_Open-mid_back_rounded_vowel.mp3">ɔ</div>
-<div class="letter æ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/23_ae.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/23_ae_325_Near-open_front_unrounded_vowel.mp3">æ</div>
-<div class="letter ɐ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/24_0Aɐ0A.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/24_ɐ_324_Near-open_central_unrounded_vowel.mp3">ɐ</div>
-<div class="letter a" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/25_a.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/25_a_304_Open_front_unrounded_vowel.mp3">a</div>
-<div class="letter ɶ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/26_ɶ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/26_ɶ_312_Open_front_rounded_vowel.mp3">ɶ</div>
-<div class="letter ɑ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/27_a.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/27_a_305_Open_back_unrounded_vowel.mp3">ɑ</div>
-<div class="letter ɒ" data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/28_ɒ.json" data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/08/28_ɒ_313_Open_back_rounded_vowel.mp3">ɒ</div>
+<div class="letter i" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/01_i.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/1_i_301_Close_front_unrounded_vowel.mp3">i</div>
+<div class="letter y" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/02_y.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/2_y_309_Close_front_rounded_vowel.mp3">y</div>
+<div class="letter ɨ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/03_ɨ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/3_ɨ_317_Close_central_unrounded_vowel.mp3">ɨ</div>
+<div class="letter ʉ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/04_ʉ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/4_ʉ_318_Close_central_rounded_vowel.mp3">ʉ</div>
+<div class="letter ɯ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/05_ɯ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/5_ɯ_316_Close_back_unrounded_vowel.mp3">ɯ</div>
+<div class="letter u" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/06_u.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/6_u_308_Close_back_rounded_vowel.mp3">u</div>
+<div class="letter ɪ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/07_ɪ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/7_ɪ_319_Near-close_near-front_unrounded_vowel.mp3">ɪ</div>
+<div class="letter ʏ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/08_ʏ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/8_ʏ_320_Near-close_near-front_rounded_vowel.mp3">ʏ</div>
+<div class="letter ʊ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/09_ʊ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/9_ʊ_321Near-close_near-back_rounded_vowel.mp3">ʊ</div>
+<div class="letter e" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/10_e.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/10_e_302_Close-mid_front_unrounded_vowel.mp3">e</div>
+<div class="letter ø" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/11_o.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/11_o_310_Close-mid_front_rounded_vowel.mp3">ø</div>
+<div class="letter ɘ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/12_ɘ-.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/12_ɘ_397_Close-mid_central_unrounded_vowel.mp3">ɘ</div>
+<div class="letter ɵ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/13_ɵ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/13_ɵ_323_Close-mid_central_rounded_vowel.mp3">ɵ</div>
+<div class="letter ɤ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/14_ɤ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/14_ɤ_315_Close-mid_back_unrounded_vowel.mp3">ɤ</div>
+<div class="letter o" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/15_o.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/15_o_307_Close-mid_back_rounded_vowel.mp3">o</div>
+<div class="letter ə" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/16_ə.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/16_ə_322_Mid-central_vowel.mp3">ə</div>
+<div class="letter ɛ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/17_ɛ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/17_ɛ_303_Open-mid_front_unrounded_vowel.mp3">ɛ</div>
+<div class="letter œ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/18_oe.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/18_oe_311_Open-mid_front_rounded_vowel.mp3">œ</div>
+<div class="letter ɜ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/19_ɜ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/19_ɜ_326_Open-mid_central_unrounded_vowel.mp3">ɜ</div>
+<div class="letter ɞ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/20_0Aɞ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/20_ɞ_395_Open-mid_central_rounded_vowel.mp3">ɞ</div>
+<div class="letter ʌ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/21_ʌ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/21_ʌ_314_Open-mid_back_unrounded_vowel.mp3">ʌ</div>
+<div class="letter ɔ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/22_ɔ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/22_ɔ_306_Open-mid_back_rounded_vowel.mp3">ɔ</div>
+<div class="letter æ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/23_ae.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/23_ae_325_Near-open_front_unrounded_vowel.mp3">æ</div>
+<div class="letter ɐ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/24_0Aɐ0A.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/24_ɐ_324_Near-open_central_unrounded_vowel.mp3">ɐ</div>
+<div class="letter a" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/25_a.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/25_a_304_Open_front_unrounded_vowel.mp3">a</div>
+<div class="letter ɶ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/26_ɶ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/26_ɶ_312_Open_front_rounded_vowel.mp3">ɶ</div>
+<div class="letter ɑ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/27_a.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/27_a_305_Open_back_unrounded_vowel.mp3">ɑ</div>
+<div class="letter ɒ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/28_ɒ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/28_ɒ_313_Open_back_rounded_vowel.mp3">ɒ</div>
 
 
 
-<img class="Image2" src="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/IPA_Vowels.png" alt="Image2" width="1300" height="740">
+<img class="Image2" src="https://ipaudiovisual.com/wp-content/uploads/2023/10/IPA_Vowels.png" alt="Image2" width="1300" height="740">
 
 <div id="animationContainer"> </div>
 <div class="popup-overlay" id="popupOverlay"></div>
@@ -461,7 +477,7 @@ A open-mid vowel is characterized by the tongue being positioned the tongue is p
     </div>
 <br>
 <p><span style="font-family: input mono;">
-    Each audio clip is the work of Peter Isotalo, Via: Wikimedia Commons <a href="https://hanhof2.dreamhosters.com/anatomy/"><span style="text-decoration: underline; color: #0074D6; ">User:Denelson83</span></a> for more info.</span>
+    Each audio clip is the work of Peter Isotalo, Via: Wikimedia Commons <a href="https://commons.wikimedia.org/wiki/User:Denelson83"><span style="text-decoration: underline; color: #0074D6; ">User:Denelson83</span></a> for more info.</span>
 </p>
 <br>
 </body>
