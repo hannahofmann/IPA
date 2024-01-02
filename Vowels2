@@ -1,0 +1,563 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.typekit.net/gck7gbc.css">
+	<link rel="stylesheet" href="https://use.typekit.net/hsf3yqs.css">
+	<style>
+.additional-text
+	{
+    font-family: input-mono, monospace;
+    font-weight: 300;
+    font-style: normal;
+    color: white; 
+}  
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "fira-sans", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+		}
+		.content-container {
+			position: relative;
+			width: 1170px; /* Match the width of your image */
+			margin: 0 auto; /* Center the content horizontally */
+			
+		}
+		.letter {
+			position: absolute;
+			cursor: pointer;
+			font-size: 55px;
+			
+		}
+		.letter:hover {
+			color: #FCA603; /* Change the color to red when hovering */
+		}
+		.letter.i {
+			left: 315px;
+			top: 30px;
+		}
+		.letter.y {
+			left: 395px;
+			top: 30px;
+		}
+		.letter.ɨ {
+			left: 650px;
+			top: 30px;
+		}
+		.letter.ʉ {
+			left: 725px;
+			top: 30px;
+		}
+		.letter.ɯ {
+			left: 965px;
+			top: 30px;
+		}
+		.letter.u {
+			left: 1050px;
+			top: 30px;
+		}
+		.letter.ɪ {
+			left: 520px;
+			top: 110px;
+		}
+		.letter.ʏ {
+			left: 600px;
+			top: 110px;
+		}
+		.letter.ʊ {
+			left: 880px;
+			top: 110px;
+		}
+		.letter.e {
+			left: 415px;
+			top: 195px;
+		}
+		.letter.ø {
+			left: 495px;
+			top: 195px;
+		}
+		.letter.ɘ {
+			left: 695px;
+			top: 195px;
+		}
+		.letter.ɵ {
+			left: 780px;
+			top: 195px;
+		}
+		.letter.ɤ {
+			left: 975px;
+			top: 195px;
+		}
+		.letter.o {
+			left: 1050px;
+			top: 195px;
+		}
+		.letter ə {
+			left: 700px;
+			top: 240px;
+		}
+		.letter.ɛ {
+			left: 535px;
+			top: 370px;
+		}
+		.letter.œ {
+			left: 610px;
+			top: 370px;
+		}
+		.letter.ə {
+			left: 730px;
+			top: 280px;
+		}
+		.letter.ɜ {
+			left: 755px;
+			top: 370px;
+		}
+		.letter.ɞ {
+			left: 830px;
+			top: 370px;
+		}
+		.letter.ʌ {
+			left: 980px;
+			top: 370px;
+		}
+		.letter.ɔ {
+			left: 1050px;
+			top: 370px;
+		}
+		.letter.æ {
+			left: 590px;
+			top: 465px;
+		}
+		.letter.ɐ {
+			left: 826px;
+			top: 452px;
+		}
+		.letter.a {
+			left: 645px;
+			top: 540px;
+		}
+		.letter.ɶ {
+			left: 720px;
+			top: 540px;
+		}
+		.letter.ɑ {
+			left: 980px;
+			top: 540px;
+		}
+		.letter.ɒ {
+			left: 1050px;
+			top: 540px;
+		}
+		.Image2 {
+			top: 10px;
+			left: 20px;
+			z-index: -1;
+			width: 100%;
+			max-width: 1170px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			z-index: -1;
+		}
+		.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 500px; 
+    height: 500px;
+    padding: 0px;
+    z-index: 999;
+}
+		
+		#animationContainer {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0px; 
+			top: 210px;
+			background: white;
+			display: none;
+			
+		}
+		.popup-overlay {
+			display: none;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			
+		}
+		#replayButton {
+			font-family: input-mono, monospace;
+			position: absolute;
+			top: 465px;
+			right: 10px;
+			background: #C4295F;
+			color: white;
+			border: none;
+			padding: 5px 10px;
+			cursor: pointer;
+			border-radius: 3px;
+			z-index: 1000; 
+			
+		}
+		#closeButton {
+			font-family: input-mono, monospace;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			background: black;
+			color: white;
+			border: none;
+			padding: 5px 10px;
+			cursor: pointer;
+			border-radius: 3px;
+			z-index: 1000; 
+			
+		}
+		.scrollable-content {
+			position: relative;
+			overflow: auto;
+			height: 100vh; 
+			
+		}
+		
+	h2	{ 
+	  text-align: left;
+	  font-family: input-mono-compressed, monospace;
+      font-weight: 500;
+      font-style: normal;
+	  font-size: 20;
+	  display: inline-block;	
+        }
+	
+
+.Button {
+    font-family: "Input Mono", monospace;
+    top: 10px;
+    right: 10px;
+	margin-left: 50px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+	z-index:999;
+}
+.head {
+   position: relative;
+   margin-top: 0px;
+	margin-bottom: -100px;
+		}
+		t1 {
+			position: relative;
+			left: 405px; /* Adjust the left position as needed */
+			top: 65px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+			
+		}
+		t2 {
+			position: relative;
+			left: 625px; /* Adjust the left position as needed */
+			top: 65px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+		}
+		t3 {
+			position:relative;
+			left: 860px; /* Adjust the left position as needed */
+			top: 65px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+		}
+		t3 {
+			position:relative;
+			left: 860px; /* Adjust the left position as needed */
+			top: 65px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+		}
+		t4 {
+			position:relative;
+			left: -50px; /* Adjust the left position as needed */
+			top: 120px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+		}
+		t5 {
+			position:relative;
+			left: -140px; /* Adjust the left position as needed */
+			top: 295px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+		}
+		t6 {
+			position:relative;
+			left: -300px; /* Adjust the left position as needed */
+			top: 470px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+		}
+		t7 {
+			position:relative;
+			left: -443px; /* Adjust the left position as needed */
+			top: 643px; /* Adjust the top position as needed */
+			font-family: input-mono-compressed, monospace;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 33px;
+			z-index:2;
+		}
+.pppopup {
+        position: fixed;
+        top: 25%;
+        left: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+.pppopup-content {
+    background:#0074D6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 70%;
+    position: relative; 
+    font-family: "Input Mono", monospace;
+	z-index: 999;
+}
+.closeButton2 {
+    font-family: "Input Mono", monospace;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    color: #0074D6;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    z-index: 1000;
+}
+	</style>
+</head>
+<body>
+<div class= "head" style="display: flex; align-items: center;">
+    <h2>
+        Vowels
+    </h2>
+    <button class="Button" onclick="window.location.href='https://ipaudiovisual.com/anatomy/'">Anatomy</button>
+</div>
+	<t1 onclick= "showPppopup(1)">Front</t1>
+	<t2 onclick= "showPppopup(2)">Central</t2>
+	<t3 onclick= "showPppopup(3)">Back</t3>
+	<t4 onclick= "showPppopup(4)">Close</t4>
+	<t5 onclick= "showPppopup(5)">Close-mid</t5>
+	<t6 onclick= "showPppopup(6)">Open-mid</t6>
+	<t7 onclick= "showPppopup(7)">Open</t7>
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(1)">Close</button>
+        <p class="additional-text">
+            Front vowels are pronounced with the front part of your tongue close to the front of your mouth. Front vowels are sometimes also called <b>bright vowels</b> because they are perceived as sounding brighter than the back.
+        </p>
+    </div>
+</div>	
+	
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(2)">Close</button>
+        <p class="additional-text">
+            Central vowels are produced with the tongue in a relatively neutral or middle position within the mouth. They are not pronounced with the tongue pushed forward or backward.
+        </p>
+    </div>
+</div>	
+	
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(3)">Close</button>
+        <p class="additional-text">
+            Back vowels are produced with the back of the tongue positioned toward the back of the oral cavity. These sounds are pronounced with the tongue moved closer to the throat. Back vowels are sometimes also called <b>dark vowels</b> because they are perceived as sounding darker than the front vowels. 
+        </p>
+    </div>
+</div>	
+	
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(4)">Close</button>
+        <p class="additional-text">
+            A close vowel is characterized by the tongue being positioned very near to the roof of the mouth without forming any constriction. 
+        </p>
+    </div>
+</div>	
+	
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(5)">Close</button>
+        <p class="additional-text">
+            A close-mid vowel is characterized by the tongue being positioned one third of the way from a close vowel to an open vowel without forming any constriction. 
+        </p>
+    </div>
+</div>	
+	
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(6)">Close</button>
+        <p class="additional-text">
+A open-mid vowel is characterized by the tongue being positioned the tongue is positioned one third of the way from an open vowel to a close vowel without forming any constriction.</p>
+    </div>
+</div>	
+	
+<div class="pppopup" style="display: none;">
+    <div class="pppopup-content">
+        <button class="closeButton2" onclick="closePppopup(7)">Close</button>
+        <p class="additional-text">
+          A open vowel is characterized by the tongue being positioned as far away as possible from the roof of the mouth without creating any constriction. 
+        </p>
+    </div>
+</div>	
+	  <div class="scrollable-content">
+      <div class="content-container">
+<div class="letter i" data-animation="https://ipaudiovisual.com/wp-content/uploads/2024/01/01_i.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/1_i_301_Close_front_unrounded_vowel.mp3">i</div>
+<div class="letter y" data-animation="https://ipaudiovisual.com/wp-content/uploads/2024/01/02_y.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/2_y_309_Close_front_rounded_vowel.mp3">y</div>
+<div class="letter ɨ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2024/01/03_ɨ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/3_ɨ_317_Close_central_unrounded_vowel.mp3">ɨ</div>
+<div class="letter ʉ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2024/01/04_ʉ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/4_ʉ_318_Close_central_rounded_vowel.mp3">ʉ</div>
+<div class="letter ɯ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2024/01/05_ɯ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/5_ɯ_316_Close_back_unrounded_vowel.mp3">ɯ</div>
+<div class="letter u" data-animation="https://ipaudiovisual.com/wp-content/uploads/2024/01/06_u.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/6_u_308_Close_back_rounded_vowel.mp3">u</div>
+<div class="letter ɪ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/07_ɪ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/7_ɪ_319_Near-close_near-front_unrounded_vowel.mp3">ɪ</div>
+<div class="letter ʏ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/08_ʏ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/8_ʏ_320_Near-close_near-front_rounded_vowel.mp3">ʏ</div>
+<div class="letter ʊ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/09_ʊ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/9_ʊ_321Near-close_near-back_rounded_vowel.mp3">ʊ</div>
+<div class="letter e" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/10_e.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/10_e_302_Close-mid_front_unrounded_vowel.mp3">e</div>
+<div class="letter ø" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/11_o.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/11_o_310_Close-mid_front_rounded_vowel.mp3">ø</div>
+<div class="letter ɘ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/12_ɘ-.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/12_ɘ_397_Close-mid_central_unrounded_vowel.mp3">ɘ</div>
+<div class="letter ɵ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/13_ɵ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/13_ɵ_323_Close-mid_central_rounded_vowel.mp3">ɵ</div>
+<div class="letter ɤ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/14_ɤ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/14_ɤ_315_Close-mid_back_unrounded_vowel.mp3">ɤ</div>
+<div class="letter o" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/15_o.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/15_o_307_Close-mid_back_rounded_vowel.mp3">o</div>
+<div class="letter ə" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/16_ə.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/16_ə_322_Mid-central_vowel.mp3">ə</div>
+<div class="letter ɛ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/17_ɛ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/17_ɛ_303_Open-mid_front_unrounded_vowel.mp3">ɛ</div>
+<div class="letter œ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/18_oe.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/18_oe_311_Open-mid_front_rounded_vowel.mp3">œ</div>
+<div class="letter ɜ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/19_ɜ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/19_ɜ_326_Open-mid_central_unrounded_vowel.mp3">ɜ</div>
+<div class="letter ɞ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/20_0Aɞ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/20_ɞ_395_Open-mid_central_rounded_vowel.mp3">ɞ</div>
+<div class="letter ʌ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/21_ʌ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/21_ʌ_314_Open-mid_back_unrounded_vowel.mp3">ʌ</div>
+<div class="letter ɔ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/22_ɔ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/22_ɔ_306_Open-mid_back_rounded_vowel.mp3">ɔ</div>
+<div class="letter æ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/23_ae.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/23_ae_325_Near-open_front_unrounded_vowel.mp3">æ</div>
+<div class="letter ɐ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/24_0Aɐ0A.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/24_ɐ_324_Near-open_central_unrounded_vowel.mp3">ɐ</div>
+<div class="letter a" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/25_a.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/25_a_304_Open_front_unrounded_vowel.mp3">a</div>
+<div class="letter ɶ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/26_ɶ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/26_ɶ_312_Open_front_rounded_vowel.mp3">ɶ</div>
+<div class="letter ɑ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/27_a.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/27_a_305_Open_back_unrounded_vowel.mp3">ɑ</div>
+<div class="letter ɒ" data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/28_ɒ.json" data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/08/28_ɒ_313_Open_back_rounded_vowel.mp3">ɒ</div>
+
+
+
+<img class="Image2" src="https://ipaudiovisual.com/wp-content/uploads/2023/10/IPA_Vowels.png" alt="Image2" width="1300" height="740">
+
+<div id="animationContainer"> </div>
+<div class="popup-overlay" id="popupOverlay"></div>
+<div class="popup" id="popupContainer">
+    <button id="closeButton" onclick="closePopup()">Close</button>
+    <button id="replayButton" onclick="replayAudio()">Replay</button>
+    <div id="popupContent"></div>
+</div>
+		      </div>
+    </div>
+<br>
+<p><span style="font-family: input mono;">
+    Each audio clip is the work of Peter Isotalo, Via: Wikimedia Commons <a href="https://commons.wikimedia.org/wiki/User:Denelson83"><span style="text-decoration: underline; color: #0074D6; ">User:Denelson83</span></a> for more info.</span>
+</p>
+<br>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+<script>
+let currentAnimation = null;
+let currentAudio = null;
+document.querySelectorAll(".letter").forEach(letter => {
+            letter.addEventListener("click", function () {
+                const animationPath = this.getAttribute("data-animation");
+                const soundPath = this.getAttribute("data-sound");
+
+                const popupOverlay = document.getElementById("popupOverlay");
+                const popupContainer = document.getElementById("popupContainer");
+                const popupContent = document.getElementById("popupContent");
+
+                popupOverlay.style.display = "block";
+                popupContainer.style.display = "block";
+
+                popupContent.innerHTML = ""; 
+
+                const animation = lottie.loadAnimation({
+                    container: popupContent,
+                    renderer: "svg",
+                    loop: false,
+                    autoplay: true,
+                    path: animationPath
+                });
+
+                const audio = new Audio(soundPath);
+                audio.play();
+	
+        currentAnimation = animation;
+        currentAudio = audio;
+    });
+});
+
+        function closePopup() {
+            const popupOverlay = document.getElementById("popupOverlay");
+            const popupContainer = document.getElementById("popupContainer");
+
+            popupOverlay.style.display = "none";
+            popupContainer.style.display = "none";
+            lottie.destroy();
+            currentAnimation = null;
+            currentAudio = null;
+}
+
+function replayAudio() {
+    if (currentAnimation && currentAudio) {
+        currentAnimation.goToAndPlay(0);
+        currentAudio.currentTime = 0;
+        currentAudio.play();
+    }
+}	
+	function showPppopup(index) {
+            const pppopups = document.querySelectorAll(".pppopup");
+            pppopups[index - 1].style.display = "block";
+        }
+
+function closePppopup(index) {
+    const pppopup = document.querySelectorAll(".pppopup")[index - 1];
+    pppopup.style.display = "none";
+}
+	
+</script>
+</html>
