@@ -171,7 +171,14 @@
     padding: 0px;
     z-index: 999;
 }
-		
+#popupContent {
+    bottom: 0;
+    position: relative;
+    top: 0;
+	width: 500px; 
+    height: 500px;
+	overflow: hidden;
+}		
 		#animationContainer {
 			position: absolute;
 			width: 100%;
@@ -516,13 +523,27 @@ document.querySelectorAll(".letter").forEach(letter => {
                 popupContent.innerHTML = ""; 
 
                 const animation = lottie.loadAnimation({
-                    container: popupContent,
-                    renderer: "svg",
-                    loop: false,
-                    autoplay: true,
-                    path: animationPath
-                });
+            container: popupContent,
+            renderer: "canvas", // Use Canvas renderer
+            loop: false,
+            autoplay: true,
+            path: animationPath,
+            rendererSettings: {
+                preserveAspectRatio: 'xMidYMid meet', // Maintain aspect ratio
+                progressiveLoad: false,
+                hideOnTransparent: true,
+                clearCanvas: true,
+                progressiveLoad: true
+            }
+        });
+ animation.addEventListener("DOMLoaded", function () {
+                    const containerWidth = popupContent.offsetWidth;
+                    const containerHeight = popupContent.offsetHeight;
 
+                    animation.renderer.resize(containerWidth, containerHeight);
+                    popupContent.style.overflow = "hidden";
+                });
+				
                 const audio = new Audio(soundPath);
                 audio.play();
 	
@@ -530,6 +551,8 @@ document.querySelectorAll(".letter").forEach(letter => {
         currentAudio = audio;
     });
 });
+	
+
 
         function closePopup() {
             const popupOverlay = document.getElementById("popupOverlay");
