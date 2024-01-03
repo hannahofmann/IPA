@@ -1,0 +1,46 @@
+<html>
+<body>
+    <footer class="custom-footer">
+        <nav class="footer-navigation">
+            <ul>
+                <li><a href="https://ipaudiovisual.com/conditions-of-use/">Conditions of Use</a></li>
+                <li><a href="https://ipaudiovisual.com/legal-notice/">Legal Notice</a></li>				
+            </ul>
+        </nav>
+    </footer>
+
+    <style>
+        .custom-footer {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff;
+            font-family: "input-mono", monospace;
+            font-weight: 100;
+            border-top: 2px solid black; /* Add a black border at the top */
+        }
+
+        .footer-navigation ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-navigation ul li {
+            font-size: 18px;
+            display: inline-block;
+            margin-right: 25px;
+        }
+
+        .footer-navigation a {
+            text-decoration: none; /* Remove underlines from the links */
+            color: black;
+        }
+
+        .footer-navigation a:hover {
+            color: #F52F74; /* Change link color on hover */
+        }
+    </style>
+	</body>
+</html>
