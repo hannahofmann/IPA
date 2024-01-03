@@ -117,7 +117,7 @@
     border-radius: 3px;
     z-index: 1000;
 }
-.closeButton {
+#closeButton {
 		font-family: input-mono, monospace;
         position: absolute;
         top: 10px;
@@ -229,7 +229,7 @@
     <h2>
         <div class="text" onclick="showPpopup(1)">Pulmonic consonants</div>
     </h2>
-    <button class="Button" onclick="window.location.href='https://hanhof2.dreamhosters.com/anatomy/'">Anatomy</button>
+    <button class="Button" onclick="window.location.href='https://ipaudiovisual.com/anatomy/'">Anatomy</button>
 </div>
 <table border="1">
 <div class="ppopup" style="display: none;">
@@ -258,63 +258,63 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
 			<td><div class="text" onclick= "showPppopup(15)">Plosive</div></td>
 			<td>
             <span class="divider-small letter" 
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/29_p.json" 
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/29_p_101_Voiceless_bilabial_plosive.mp3">p</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/29_p.json" 
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/29_p_101_Voiceless_bilabial_plosive.mp3">p</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/30_b.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/30_b_102_Voiced_bilabial_plosive.mp3">b</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/30_b.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/30_b_102_Voiced_bilabial_plosive.mp3">b</span>
 			</td>
 			<td></td>
 			<td></td>
 			<td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/31_t.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/31_t_103_Voiceless_alveolar_plosive.mp3">t</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/31_t.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/31_t_103_Voiceless_alveolar_plosive.mp3">t</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/32_d.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/32_d_104_Voiced_alveolar_plosive.mp3">d</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/32_d.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/32_d_104_Voiced_alveolar_plosive.mp3">d</span>
         </td>
 			<td> </td>
 			<td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/33_ʈ.json"
-            data-sound="">ʈ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/33_ʈ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/33_ʈ_105_Voiceless_retroflex_stop.mp3">ʈ</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/34_ɖ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/33_ʈ_105_Voiceless_retroflex_stop.mp3">ɖ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/34_ɖ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/32_d_104_Voiced_alveolar_plosive.mp3">ɖ</span>
         </td>
 			
 			<td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/35_c.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/35_c_107_Voiceless_palatal_plosive.mp3">c</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/35_c.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/35_c_107_Voiceless_palatal_plosive.mp3">c</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/36_ɟ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/36_ɟ_108_Voiced_palatal_plosive.mp3">ɟ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/36_ɟ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/36_ɟ_108_Voiced_palatal_plosive.mp3">ɟ</span>
         </td>
 			
 			<td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/37_k.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/37_k_109_Voiceless_velar_plosive.mp3">k</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/37_k.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/37_k_109_Voiceless_velar_plosive.mp3">k</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/38_ɡ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/38_ɡ_110_Voiced_velar_plosive.mp3">g</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/38_ɡ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/38_ɡ_110_Voiced_velar_plosive.mp3">g</span>
         </td>
 			
 			<td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/39_q.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/39_q_111_Voiceless_uvular_plosive.mp3">q</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/39_q.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/39_q_111_Voiceless_uvular_plosive.mp3">q</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/40_ɢ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/40_ɢ_112_Voiced_uvular_stop.mp3">ɢ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/40_ɢ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/40_ɢ_112_Voiced_uvular_stop.mp3">ɢ</span>
         </td>
 			<td></td>
 			<td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/41_ʔ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/41_ʔ_113_Glottal_stop.mp3">ʔ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/41_ʔ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/41_ʔ_113_Glottal_stop.mp3">ʔ</span>
             <span class="divider-small letter"></span>
         </td>
         </tr>
@@ -323,45 +323,45 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
             <td><div class="text" onclick= "showPppopup(16)">Nasal</div></td>
             <td>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/42_m.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/42_m_114_Bilabial_nasal.mp3">m</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/42_m.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/42_m_114_Bilabial_nasal.mp3">m</span>
                 <span class="divider-small letter"></span>
             </td>			
             
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/43_ɱ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/43_ɱ_115_Labiodental_nasal.mp3">ɱ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/43_ɱ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/43_ɱ_115_Labiodental_nasal.mp3">ɱ</span>
             </td>
             <td></td>
             <td><span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/44_n.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/44_n_116_Alveolar_nasal.mp3">n</span></td>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/44_n.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/44_n_116_Alveolar_nasal.mp3">n</span></td>
             <td></td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/45_ɳ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/45_ɳ_117_Retroflex_nasal.mp3">ɳ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/45_ɳ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/45_ɳ_117_Retroflex_nasal.mp3">ɳ</span>
             </td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/46_ɲ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/46_ɲ_118_Palatal_nasal.mp3">ɲ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/46_ɲ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/46_ɲ_118_Palatal_nasal.mp3">ɲ</span>
             </td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/47_n.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/47_n_119_Velar_nasal.mp3">ŋ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/47_n.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/47_n_119_Velar_nasal.mp3">ŋ</span>
             </td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/48_ɴ-.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/48_ɴ_120_Uvular_nasal.mp3">ɴ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/48_ɴ-.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/48_ɴ_120_Uvular_nasal.mp3">ɴ</span>
             </td>
             <td></td>
             <td></td>
@@ -371,22 +371,22 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/49_ʙ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/49_ʙ_121_Bilabial_trill.mp3">ʙ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/49_ʙ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/49_ʙ_121_Bilabial_trill.mp3">ʙ</span>
             </td>
             <td></td>
             <td></td>
             <td><span class="letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/50_r.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/50_r_122_Alveolar_trill.mp3">r</span></td>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/50_r.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/50_r_122_Alveolar_trill.mp3">r</span></td>
             <td></td>
             <td></td>
             <td></td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/51_ʀ-.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/51_ʀ_123_Uvular_trill.mp3">ʀ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/51_ʀ-.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/51_ʀ_123_Uvular_trill.mp3">ʀ</span>
             </td>
 			<td></td>
 			<td></td>
@@ -398,19 +398,19 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/52_ⱱ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/52_ⱱ_184_Labiodental_flap.mp3">ⱱ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/52_ⱱ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/52_ⱱ_184_Labiodental_flap.mp3">ⱱ</span>
             </td>
             <td></td>
             <td><span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/53_ɾ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/53_ɾ_124_Alveolar_tap.mp3">ɾ</span></td>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/53_ɾ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/53_ɾ_124_Alveolar_tap.mp3">ɾ</span></td>
             <td></td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/54_ɽ-.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/54_ɽ_125_Retroflex_flap.mp3">ɽ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/54_ɽ-.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/54_ɽ_125_Retroflex_flap.mp3">ɽ</span>
             </td>
             <td></td>
             <td></td>
@@ -422,91 +422,91 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
         <td><div class="text" onclick= "showPppopup(19)">Fricative</div></td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/55_ɸ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/55_ɸ_126_Voiceless_bilabial_fricative.mp3">ɸ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/55_ɸ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/55_ɸ_126_Voiceless_bilabial_fricative.mp3">ɸ</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/56_β.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/56_β_127_Voiced_bilabial_fricative.mp3">β</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/56_β.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/56_β_127_Voiced_bilabial_fricative.mp3">β</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/57_f.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/57_f_128_Voiceless_labiodental_fricative.mp3">f</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/57_f.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/57_f_128_Voiceless_labiodental_fricative.mp3">f</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/58_v.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/58_v_129_Voiced_labiodental_fricative.mp3">v</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/58_v.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/58_v_129_Voiced_labiodental_fricative.mp3">v</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/59_θ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/59_θ_130_Voiceless_dental_fricative.mp3">θ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/59_θ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/59_θ_130_Voiceless_dental_fricative.mp3">θ</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/60_d.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/60_d_131_Voiced_dental_fricative.mp3">ð</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/60_d.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/60_d_131_Voiced_dental_fricative.mp3">ð</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/61_s.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/61_s_132_Voiceless_alveolar_sibilant.mp3">s</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/61_s.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/61_s_132_Voiceless_alveolar_sibilant.mp3">s</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/62_z.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/62_z_133_Voiced_alveolar_sibilant.mp3">z</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/62_z.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/62_z_133_Voiced_alveolar_sibilant.mp3">z</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/63_ʃ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/63_ʃ_134_Voiceless_palato-alveolar_sibilant.mp3">ʃ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/63_ʃ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/63_ʃ_134_Voiceless_palato-alveolar_sibilant.mp3">ʃ</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/64_ʒ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/64_ʒ_135_Voiced_palato-alveolar_sibilant.mp3">ʒ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/64_ʒ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/64_ʒ_135_Voiced_palato-alveolar_sibilant.mp3">ʒ</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/65_ʂ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/65_ʂ_136_Voiceless_retroflex_sibilant.mp3">ʂ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/65_ʂ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/65_ʂ_136_Voiceless_retroflex_sibilant.mp3">ʂ</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/66_ʐ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/66_ʐ_137_Voiced_retroflex_sibilant.mp3">ʐ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/66_ʐ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/66_ʐ_137_Voiced_retroflex_sibilant.mp3">ʐ</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/67_c.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/67_c_138_Voiceless_palatal_fricative.mp3">ç</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/67_c.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/67_c_138_Voiceless_palatal_fricative.mp3">ç</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/68_ʝ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/68_ʝ_139_Voiced_palatal_fricative.mp3">ʝ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/68_ʝ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/68_ʝ_139_Voiced_palatal_fricative.mp3">ʝ</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/69_x.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/69_x_140_Voiceless_velar_fricative.mp3">x</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/69_x.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/69_x_140_Voiceless_velar_fricative.mp3">x</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/70_ɣ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/70_ɣ_141_Voiced_velar_fricative.mp3">ɣ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/70_ɣ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/70_ɣ_141_Voiced_velar_fricative.mp3">ɣ</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/71_χ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/71_χ_142_Voiceless_uvular_fricative.mp3">χ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/71_χ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/71_χ_142_Voiceless_uvular_fricative.mp3">χ</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/72_ʁ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/72_ʁ_143_Voiced_uvular_fricative.mp3">ʁ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/72_ʁ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/72_ʁ_143_Voiced_uvular_fricative.mp3">ʁ</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/73_h.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/73_h_144_Voiceless_pharyngeal_fricative.mp3">ħ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/73_h.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/73_h_144_Voiceless_pharyngeal_fricative.mp3">ħ</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/74_ʕ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/74_ʕ_145_Voiced_pharyngeal_fricative.mp3">ʕ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/74_ʕ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/74_ʕ_145_Voiced_pharyngeal_fricative.mp3">ʕ</span>
         </td>
         <td>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/75_h.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/75_h_146_Voiceless_glottal_fricative.mp3">h</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/75_h.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/75_h_146_Voiceless_glottal_fricative.mp3">h</span>
             <span class="divider-small letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/76_ɦ.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/76_ɦ_147_Voiced_glottal_fricative.mp3">ɦ</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/76_ɦ.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/76_ɦ_147_Voiced_glottal_fricative.mp3">ɦ</span>
         </td>
     </tr>
 		<tr>
@@ -516,11 +516,11 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
             <td></td>
             <td>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/77_ɬ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/77_ɬ_148_Voiceless_alveolar_lateral_fricative.mp3">ɬ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/77_ɬ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/77_ɬ_148_Voiceless_alveolar_lateral_fricative.mp3">ɬ</span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/78_ɮ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/78_ɮ_149_Voiced_alveolar_lateral_fricative.mp3">ɮ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/78_ɮ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/78_ɮ_149_Voiced_alveolar_lateral_fricative.mp3">ɮ</span>
             </td>
             <td></td>
             <td></td>
@@ -536,34 +536,34 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/79_ʋ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/79_ʋ_150_Labiodental_approximant.mp3">ʋ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/79_ʋ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/79_ʋ_150_Labiodental_approximant.mp3">ʋ</span>
             </td>
             <td></td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/80_ɹ-.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/80_ɹ_151_Alveolar_approximant.mp3">ɹ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/80_ɹ-.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/80_ɹ_151_Alveolar_approximant.mp3">ɹ</span>
             </td>
             <td></td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/81_ɻ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/81_ɻ_152_Retroflex_approximant.mp3">ɻ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/81_ɻ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/81_ɻ_152_Retroflex_approximant.mp3">ɻ</span>
             </td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/82_j-.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/82_j_153_Palatal_approximant.mp3">j</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/82_j-.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/82_j_153_Palatal_approximant.mp3">j</span>
             </td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/83_ɰ-.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/83_ɰ_154_Voiced_velar_approximant.mp3">ɰ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/83_ɰ-.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/83_ɰ_154_Voiced_velar_approximant.mp3">ɰ</span>
             </td>
             <td></td>
             <td></td>
@@ -577,27 +577,27 @@ Pulmonic consonants are sounds produced by expelling air from the lungs while ob
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/84_l.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/84_l_155_Alveolar_lateral_approximant.mp3">l</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/84_l.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/84_l_155_Alveolar_lateral_approximant.mp3">l</span>
             </td>
             <td></td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/85_ɭ.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/85_ɭ_156_Retroflex_lateral_approximant.mp3">ɭ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/85_ɭ.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/85_ɭ_156_Retroflex_lateral_approximant.mp3">ɭ</span>
             </td>
             <td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/86_ʎ-.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/86_ʎ_157_Palatal_lateral_approximant.mp3">ʎ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/86_ʎ-.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/86_ʎ_157_Palatal_lateral_approximant.mp3">ʎ</span>
             </td>
 			<td>
                 <span class="divider-small"></span>
                 <span class="divider-small letter"
-                data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/87_L.json"
-                data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/87_ʟ_158_Velar_lateral_approximant.mp3">ʟ</span>
+                data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/87_L.json"
+                data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/87_ʟ_158_Velar_lateral_approximant.mp3">ʟ</span>
             </td>
 			<td></td>
 			<td></td>
@@ -640,18 +640,18 @@ An example of a non-pulmonic consonant is the "click" sounds found in some Afric
         
         <td>
         <span class="divider letter" 
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/88_ʘBilabial.json" 
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/88_ʘ_176_Bilabial_click.mp3">ʘ Bilabial</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/88_ʘBilabial.json" 
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/88_ʘ_176_Bilabial_click.mp3">ʘ Bilabial</span>
         </td>
         <td>
         <span class="divider letter"
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/93_ɓ-Bilabial.json"
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/93_ɓ_160_Voiced_bilabial_implosive.mp3">ɓ Bilabial</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/93_ɓ-Bilabial.json"
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/93_ɓ_160_Voiced_bilabial_implosive.mp3">ɓ Bilabial</span>
         </td>
         <td>
             <span class="divider letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/98_pʼ-Bilabal.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/98_-pʼ_Bilabial_ejective_plosive.mp3">pʼ Bilabial</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/98_pʼ-Bilabal.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/98_-pʼ_Bilabial_ejective_plosive.mp3">pʼ Bilabial</span>
         </td>
     </tr>
 
@@ -659,54 +659,54 @@ An example of a non-pulmonic consonant is the "click" sounds found in some Afric
         
         <td>
         <span class="divider letter" 
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/89_ǀ-Dental.json" 
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/89_ǀ_177_Dental_click.mp3">ǀ Dental</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/89_ǀ-Dental.json" 
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/89_ǀ_177_Dental_click.mp3">ǀ Dental</span>
         </td>
         <td>
         <span class="divider letter"
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/94_ɗDentalalveolar.json"
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/94_ɗ_162_Voiced_alveolar_implosive.mp3">ɗ Dental/alveolar</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/94_ɗDentalalveolar.json"
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/94_ɗ_162_Voiced_alveolar_implosive.mp3">ɗ Dental/alveolar</span>
         </td>
         <td>
             <span class="divider letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/99_tʼDentalalveolar.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/99_tʼ_Alveolar_ejective_plosive.mp3">tʼ Dental/alveolarl</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/99_tʼDentalalveolar.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/99_tʼ_Alveolar_ejective_plosive.mp3">tʼ Dental/alveolarl</span>
         </td>
     </tr>
     <tr>
         
         <td>
         <span class="divider letter" 
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/90_ǃ-Postalveolar.json" 
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/90_ǃ_178_Alveolar_lateral_click.mp3">ǃ(Post)alveoalar</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/90_ǃ-Postalveolar.json" 
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/90_ǃ_178_Alveolar_lateral_click.mp3">ǃ(Post)alveoalar</span>
         </td>
         <td>
         <span class="divider letter"
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/95_-ʄ-Palatal.json"
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/95_ʄ_164_Voiced_palatal_implosive.mp3">ʄ Palatal</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/95_-ʄ-Palatal.json"
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/95_ʄ_164_Voiced_palatal_implosive.mp3">ʄ Palatal</span>
         </td>
         <td>
             <span class="divider letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/100_kʼVelar.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/100_kʼ_Velar_ejective_plosive.mp3">kʼ Velar</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/100_kʼVelar.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/100_kʼ_Velar_ejective_plosive.mp3">kʼ Velar</span>
         </td>
     </tr>
     <tr>
         
         <td>
         <span class="divider letter" 
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/91_ǂ-Palatoalveolar.json" 
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/91_ǂ_179_Palatoalveolar_click.mp3">ǂ Palatoalveolar</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/91_ǂ-Palatoalveolar.json" 
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/91_ǂ_179_Palatoalveolar_click.mp3">ǂ Palatoalveolar</span>
         </td>
         <td>
         <span class="divider letter"
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/96_ɠ_Velar.json"
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/96_ɠ_166_Voiced_velar_implosive.mp3">ɠ Velar</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/96_ɠ_Velar.json"
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/96_ɠ_166_Voiced_velar_implosive.mp3">ɠ Velar</span>
         </td>
         <td>
             <span class="divider letter"
-            data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/101_sʼAlveolar-fricative.json"
-            data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/101_sʼ_Alveolar_ejective_fricative.mp3">sʼ Alveolar fricative</span>
+            data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/101_sʼAlveolar-fricative.json"
+            data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/101_sʼ_Alveolar_ejective_fricative.mp3">sʼ Alveolar fricative</span>
         </td>
     </tr>
     
@@ -714,13 +714,13 @@ An example of a non-pulmonic consonant is the "click" sounds found in some Afric
         
         <td>
         <span class="divider letter" 
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/92_ǁ-Alveolar-lateral.json" 
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/92_ǁ_180_Postalveolar_click.mp3">ǁ Alveolar lateral</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/92_ǁ-Alveolar-lateral.json" 
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/92_ǁ_180_Postalveolar_click.mp3">ǁ Alveolar lateral</span>
         </td>
         <td>
         <span class="divider letter"
-        data-animation="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/97_ʛUvular.json"
-        data-sound="https://hanhof2.dreamhosters.com/wp-content/uploads/2023/10/97_ʛ_168_Voiced_uvular_implosive.mp3">ʛ	Uvular</span>
+        data-animation="https://ipaudiovisual.com/wp-content/uploads/2023/10/97_ʛUvular.json"
+        data-sound="https://ipaudiovisual.com/wp-content/uploads/2023/10/97_ʛ_168_Voiced_uvular_implosive.mp3">ʛ	Uvular</span>
         </td>
         <td></td>
     </tr>  
@@ -911,11 +911,6 @@ Click consonants are speech sounds produced by creating suction in the oral cavi
             These are sounds where the airstream proceeds along one or both of the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth.        </p>
     </div>
 </div>
-<br>
-<p><span style="font-family: input mono;">
-    Each audio clip is the work of Peter Isotalo, Via: Wikimedia Commons <a href="https://hanhof2.dreamhosters.com/anatomy/"><span style="text-decoration: underline; color: #0074D6; ">User:Denelson83</span></a> for more info.</span>
-</p>
-<br>
 <script>
 	
         document.querySelectorAll(".letter").forEach(letter => {
