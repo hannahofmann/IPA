@@ -1,304 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="https://use.typekt.net/qjm8gcc.css">
-	<link rel="stylesheet" href="https://use.typekit.net/hsf3yqs.css">
-   
-</head>
-<body>
-	<h2 class="h2">
-		Anatomy
-	</h2>
-	<p class="body-text">Click on any term to get further information</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.typekt.net/qjm8gcc.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hsf3yqs.css" />
+  </head>
+  <body>
+    <h2 class="h2">Anatomy</h2>
+    <p class="body-text">Click on any term to get further information</p>
 
-	<div class="container">
-	<div class="image-container">
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/rachenbg.png" alt="Image 1">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/glotti.png" alt="Image 2">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/rachenhinten.png" alt="Image 3">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/rachenvorne.png" alt="Image 4">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/backofhead.png" alt="Image 5">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/teeth.png" alt="Image 6">
-		</div>
-	<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/tongue.png" alt="Image 7">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/frontface.png" alt="Image 8">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/Lips.png" alt="Image 9">
-		</div>
-		<div class="image">
-			<img class="hover-image" src="https://ipaudiovisual.com/wp-content/uploads/2023/09/idekyet.png" alt="Image 10">
-		</div>
-	</div>
-	
-<div class="text-container">	
-	<div class="text" onmouseover="scaleImage(1), addBackground(1)" onclick= "showPopup(1)" onmouseout="resetImage(1), deleteBackground(1)">Palate</div>
-	<div class="text" onmouseover="scaleImage(2),addBackground(2)" onclick= "showPopup(2)" onmouseout="resetImage(2),deleteBackground(2)">Vocal cords (glottis)</div>
-	<div class="text" onmouseover="scaleImage(3),addBackground(3)" onclick= "showPopup(3)" onmouseout="resetImage(2),deleteBackground(3)">Soft palate</div>
-	<div class="text" onmouseover="scaleImage(4),addBackground(4)" onclick= "showPopup(4)" onmouseout="resetImage(2),deleteBackground(4)">Hard palate</div>
-	<div class="text" onmouseover="scaleImage(5),addBackground(5)" onclick= "showPopup(5)" onmouseout="resetImage(2),deleteBackground(5)">Back of head with Pharynx in the middle</div>
-	<div class="text" onmouseover="scaleImage(6), addBackground(6)" onclick= "showPopup(6)" onmouseout="resetImage(2),deleteBackground(6)">Teeth</div>
-	<div class="text" onmouseover="scaleImage(7),addBackground(7)" onclick= "showPopup(7)" onmouseout="resetImage(2),deleteBackground(7)">Tongue</div>
-	<div class="text" onmouseover="scaleImage(8),addBackground(8)" onclick= "showPopup(7)" onmouseout="resetImage(2),deleteBackground(8)">Face</div>
-	<div class="text" onmouseover="scaleImage(9),addBackground(9)" onclick= "showPopup(9)" onmouseout="resetImage(2),deleteBackground(9)">Lips</div>
-	<div class="text" onmouseover="scaleImage(10),addBackground(10)" onclick= "showPopup(10)" onmouseout="resetImage(2),deleteBackground(10)">Thyroid cartilage</div>
-</div>
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(1)">Close</button>
-        <p class="additional-text">
-            The palate, including the hard and soft palate, plays a role in modifying the resonance of the vocal tract. It helps shape the oral cavity, which, in turn, affects the sound produced during speech.        </p>
+    <div class="container">
+      <div class="image-container">
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/rachenbg.png"
+            alt="Image 1"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/glotti.png"
+            alt="Image 2"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/rachenhinten.png"
+            alt="Image 3"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/rachenvorne.png"
+            alt="Image 4"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/backofhead.png"
+            alt="Image 5"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/teeth.png"
+            alt="Image 6"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/tongue.png"
+            alt="Image 7"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/frontface.png"
+            alt="Image 8"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/Lips.png"
+            alt="Image 9"
+          />
+        </div>
+        <div class="image">
+          <img
+            class="hover-image"
+            src="https://ipaudiovisual.com/wp-content/uploads/2023/09/idekyet.png"
+            alt="Image 10"
+          />
+        </div>
+      </div>
+
+      <div class="text-container">
+        <div
+          class="text"
+          onmouseover="scaleImage(1), addBackground(1)"
+          onclick="showPopup(1)"
+          onmouseout="resetImage(1), deleteBackground(1)"
+        >
+          Palate
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(2),addBackground(2)"
+          onclick="showPopup(2)"
+          onmouseout="resetImage(2),deleteBackground(2)"
+        >
+          Vocal cords (glottis)
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(3),addBackground(3)"
+          onclick="showPopup(3)"
+          onmouseout="resetImage(2),deleteBackground(3)"
+        >
+          Soft palate
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(4),addBackground(4)"
+          onclick="showPopup(4)"
+          onmouseout="resetImage(2),deleteBackground(4)"
+        >
+          Hard palate
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(5),addBackground(5)"
+          onclick="showPopup(5)"
+          onmouseout="resetImage(2),deleteBackground(5)"
+        >
+          Back of head with Pharynx in the middle
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(6), addBackground(6)"
+          onclick="showPopup(6)"
+          onmouseout="resetImage(2),deleteBackground(6)"
+        >
+          Teeth
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(7),addBackground(7)"
+          onclick="showPopup(7)"
+          onmouseout="resetImage(2),deleteBackground(7)"
+        >
+          Tongue
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(8),addBackground(8)"
+          onclick="showPopup(7)"
+          onmouseout="resetImage(2),deleteBackground(8)"
+        >
+          Face
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(9),addBackground(9)"
+          onclick="showPopup(9)"
+          onmouseout="resetImage(2),deleteBackground(9)"
+        >
+          Lips
+        </div>
+        <div
+          class="text"
+          onmouseover="scaleImage(10),addBackground(10)"
+          onclick="showPopup(10)"
+          onmouseout="resetImage(2),deleteBackground(10)"
+        >
+          Thyroid cartilage
+        </div>
+      </div>
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(1)">Close</button>
+          <p class="additional-text">
+            The palate, including the hard and soft palate, plays a role in
+            modifying the resonance of the vocal tract. It helps shape the oral
+            cavity, which, in turn, affects the sound produced during speech.
+          </p>
+        </div>
+      </div>
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(2)">Close</button>
+          <p class="additional-text">
+            The vocal cords are the primary sound-producing elements in the
+            larynx. When air from the lungs passes through the glottis, the
+            tension and position of the vocal cords determine the pitch and
+            loudness of the sound.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(3)">Close</button>
+          <p class="additional-text">
+            The soft palate is involved in sound production by controlling the
+            passage of air between the oral and nasal cavities. When the soft
+            palate is raised, it closes off the nasal cavity, directing all
+            airflow through the mouth for oral sounds.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(4)">Close</button>
+          <p class="additional-text">
+            The hard palate's firm structure helps in articulating specific
+            speech sounds, particularly those that involve contact between the
+            tongue and palate, such as some consonant sounds.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(5)">Close</button>
+          <p class="additional-text">
+            The back of the head and the pharynx (throat) aren't directly
+            involved in sound production, but play a role when the tongue is
+            placed against them.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(6)">Close</button>
+          <p class="additional-text">
+            Teeth play a role in articulating speech sounds by helping to shape
+            and control the airflow when the tongue or lips interact with them.
+            An example is the [θ] at the end of the word teeth.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(7)">Close</button>
+          <p class="additional-text">
+            The tongue is a crucial articulator for speech sounds. Its
+            movements, placement, and contact with other parts of the mouth,
+            such as the palate, teeth, and alveolar ridge, contribute to the
+            production of a wide range of speech sounds.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(8)">Close</button>
+          <p class="additional-text">
+            The face, including the nasal passages, influences the quality of
+            sounds by shaping the resonant cavities. Nasal sounds are produced
+            by allowing air to escape through the nasal passages during speech.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(9)">Close</button>
+          <p class="additional-text">
+            The lips are essential in forming speech sounds, especially bilabial
+            sounds (sounds produced with both lips), such as "p," "b," and "m."
+            They also contribute to lip-rounding in some vowel sounds.
+          </p>
+        </div>
+      </div>
+
+      <div class="popup" style="display: none">
+        <div class="popup-content">
+          <button class="closeButton" onclick="closePopup(10)">Close</button>
+          <p class="additional-text">
+            The thyroid cartilage is not directly involved in sound production
+            but plays a protective role for the vocal cords, which are
+            responsible for sound generation. It helps maintain the stability of
+            the larynx and protects the vocal apparatus.
+          </p>
+        </div>
+      </div>
     </div>
-</div>
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(2)">Close</button>
-        <p class="additional-text">
-            The vocal cords are the primary sound-producing elements in the larynx. When air from the lungs passes through the glottis, the tension and position of the vocal cords determine the pitch and loudness of the sound.        </p>
-    </div>
-</div>
 
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(3)">Close</button>
-        <p class="additional-text">
-            The soft palate is involved in sound production by controlling the passage of air between the oral and nasal cavities. When the soft palate is raised, it closes off the nasal cavity, directing all airflow through the mouth for oral sounds.
-
-        </p>
-    </div>
-</div>
-
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(4)">Close</button>
-        <p class="additional-text">
-            The hard palate's firm structure helps in articulating specific speech sounds, particularly those that involve contact between the tongue and palate, such as some consonant sounds.
-
-        </p>
-    </div>
-</div>
-
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(5)">Close</button>
-        <p class="additional-text">
-            The back of the head and the pharynx (throat) aren't directly involved in sound production, but play a role when the tongue is placed against them.
-        </p>
-    </div>
-</div>
-
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(6)">Close</button>
-        <p class="additional-text">
-            Teeth play a role in articulating speech sounds by helping to shape and control the airflow when the tongue or lips interact with them. An example is the [θ] at the end of the word teeth.  
-        </p>
-    </div>
-</div>
-
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(7)">Close</button>
-        <p class="additional-text">
-            The tongue is a crucial articulator for speech sounds. Its movements, placement, and contact with other parts of the mouth, such as the palate, teeth, and alveolar ridge, contribute to the production of a wide range of speech sounds.
-        </p>
-    </div>
-</div>
-
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(8)">Close</button>
-        <p class="additional-text">
-            The face, including the nasal passages, influences the quality of sounds by shaping the resonant cavities. Nasal sounds are produced by allowing air to escape through the nasal passages during speech.
-        </p>
-    </div>
-</div>
-
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(9)">Close</button>
-        <p class="additional-text">
-            The lips are essential in forming speech sounds, especially bilabial sounds (sounds produced with both lips), such as "p," "b," and "m." They also contribute to lip-rounding in some vowel sounds.
-        </p>
-    </div>
-</div>
-
-<div class="popup" style="display: none;">
-    <div class="popup-content">
-        <button class="closeButton" onclick="closePopup(10)">Close</button>
-        <p class="additional-text">
-            The thyroid cartilage is not directly involved in sound production but plays a protective role for the vocal cords, which are responsible for sound generation. It helps maintain the stability of the larynx and protects the vocal apparatus.
-        </p>
-    </div>
-</div>
-
-</div>
-
-	 	
     <script>
-        const images = document.querySelectorAll(".hover-image");
-        const imageContainers = document.querySelectorAll(".image");
+      const images = document.querySelectorAll(".hover-image");
+      const imageContainers = document.querySelectorAll(".image");
 
-        function scaleImage(index) {
-    images.forEach(image => {
-        image.style.transform = "scale(1)";
-        image.style.zIndex = "0"; 
-    });
-    const scaledImage = imageContainers[index - 1].querySelector(".hover-image");
-    scaledImage.style.transform = "scale(1.1) translateX(-5px)";
-    scaledImage.style.zIndex = "1"; 
-}
+      function scaleImage(index) {
+        images.forEach((image) => {
+          image.style.transform = "scale(1)";
+          image.style.zIndex = "0";
+        });
+        const scaledImage =
+          imageContainers[index - 1].querySelector(".hover-image");
+        scaledImage.style.transform = "scale(1.1) translateX(-5px)";
+        scaledImage.style.zIndex = "1";
+      }
 
-        function resetImage() {
-            images.forEach(image => {
-                image.style.transform = "scale(1)";
-				image.style.zIndex = "0";
-            });
-        }
-		
-		function addBackground(index) {
-    const image = images[index - 1];
-    image.style.background = "rgba(0, 0, 0, 0.5)";
-    image.style.backgroundSize = "100% 100%";
-    image.style.background.transform = "scale(1.2) translateX(-20px)";
-}
-		
-		function deleteBackground(index) {
-    const image = images[index - 1];
-    image.style.background = "rgba(0, 0, 0, 0)";
-}
-		 function showPopup(index) {
-            const popups = document.querySelectorAll(".popup");
-            popups[index - 1].style.display = "block";
-        }
+      function resetImage() {
+        images.forEach((image) => {
+          image.style.transform = "scale(1)";
+          image.style.zIndex = "0";
+        });
+      }
+
+      function addBackground(index) {
+        const image = images[index - 1];
+        image.style.background = "rgba(0, 0, 0, 0.5)";
+        image.style.backgroundSize = "100% 100%";
+        image.style.background.transform = "scale(1.2) translateX(-20px)";
+      }
+
+      function deleteBackground(index) {
+        const image = images[index - 1];
+        image.style.background = "rgba(0, 0, 0, 0)";
+      }
+      function showPopup(index) {
+        const popups = document.querySelectorAll(".popup");
+        popups[index - 1].style.display = "flex";
+      }
 
       function closePopup(index) {
-    const popup = document.querySelectorAll(".popup")[index - 1];
-    popup.style.display = "none";
-}
-
+        const popup = document.querySelectorAll(".popup")[index - 1];
+        popup.style.display = "none";
+      }
     </script>
-</body>
+  </body>
 
-<style>
-
-.h2 {
-	  text-align: left;
-	  font-family: input-mono-compressed, monospace;
+  <style>
+    .h2 {
+      text-align: left;
+      font-family: input-mono-compressed, monospace;
       font-weight: 500;
       font-style: normal;
-	  font-size: 20;
-	}
-.container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-}
+      font-size: 20;
+    }
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100vh;
+      flex-wrap: wrap;
+    }
 
-.image-container {
-    position: relative;
-    width: 500px; 
-    height: 600px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden; 
-}
+    .image-container {
+      position: relative;
+      width: 500px;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+	  margin-top: -20px;
+    }
 
+    .image {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+      left: 50px;
+    }
 
-.image {
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
-}
+    .hover-image {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
 
-
-.hover-image {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover;
-}
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 100px; 
-	margin-top: 10px;
-}
-	.text {
-    cursor: pointer; 
-    padding: 10px;
-	font-family: "Input Mono", monospace;
-	color: black;
-}
-  .text:hover {
-        color: #F52F74;
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 100px;
+      margin-top: 10px;
+    }
+    .text {
+      cursor: pointer;
+      padding: 10px;
+      font-family: "Input Mono", monospace;
+      color: black;
+    }
+    .text:hover {
+      color: #f52f74;
     }
 
     .popup {
-        position: fixed;
-        top: 15%;
-        left: center;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 999;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      margin: auto;
     }
-.popup-content {
-    background: white;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    max-width: 70%;
-    position: relative; 
-    font-family: "Input Mono", monospace;
-}
+    .popup-content {
+      background: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      max-width: 70%;
+      position: relative;
+      font-family: "Input Mono", monospace;
+    }
 
-.closeButton {
-    font-family: "Input Mono", monospace;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: black;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 3px;
-    z-index: 1000;
-}
-.body-text {
-    font-family: input-mono, monospace;
-    font-weight: 300;
-    font-style: normal;
-    color: black; /* You can set the desired text color */
-}   
-</style>
+    .closeButton {
+      font-family: "Input Mono", monospace;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: black;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 3px;
+      z-index: 1000;
+    }
+    .body-text {
+      font-family: input-mono, monospace;
+      font-weight: 300;
+      font-style: normal;
+      color: black; /* You can set the desired text color */
+    }
+
+    @media screen and (max-width: 1000px) {
+      .image-container {
+        flex: 2;
+        max-height: 800px;
+      }
+      .image {
+        height: 75%;
+      }
+
+      .text-container {
+        flex: 1;
+        margin-left: 20px;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .image {
+        flex: 1;
+        left: 20px;
+      }
+      .container {
+        flex-wrap: wrap;
+        height: 100%;
+      }
+
+	   .popup {
+      position: fixed;
+      width: 90%;
+	  margin-top: 10px;
+      height: 90%;
+      display: flex;
+      align-items: baseline;
+	  justify-content: flex-end;
+      z-index: 999;
+      margin: auto;
+    }
+	  .popup-content {
+      font-size: 14px;
+	  padding: 10px;
+
+    }
+	    .text-container {
+      margin-left: 0px;
+      margin-top: -80px;
+	  z-index: 999;
+
+    }
+	    .image-container {
+      margin-left: 0px;
+      margin-top: -100px;
+	  flex: 1;
+      min-width: 100%;
+    }
+	     .closeButton {
+	  font-size: 12px;
+      position: relative;
+	  top: 0px;
+      right: 0px;
+    }
+    }
+  </style>
 </html>
