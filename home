@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IPA Audio Visual</title>
+  <link rel="stylesheet" href="https://use.typekit.net/hsf3yqs.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+	
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+	
+<body>
+  <div class="container">
+    <div class="image-section">
+      <img src="https://ipaudiovisual.com/wp-content/uploads/2023/10/28_ɒ-0000004.jpg" alt="IPA Audio Visual Image">
+    </div>
+    <div class="content-section">
+      <h1>IPA <br> Audio <br> Visual</h1>
+	  <h3>This website offers a unique approach to learning the International Phonetic Alphabet based on real-time MRI (rtMRI) scans turned into simple animations. These animations provide a visual representation synchronized with audio recordings of IPA symbols, enabling users to both see and hear the intricate sounds of phonetics. 
+		</h3>	
+      <div class="shapes">
+		<div class="shape vowel-shape"><a href="https://ipaudiovisual.com/vowels">Vowels</a></div>
+        <div class="shape consonant-shape"><a href="https://ipaudiovisual.com/consonants">Consonants</a></div>
+        <div class="shape anatomy-shape"><a href="https://ipaudiovisual.com/anatomy">Anatomy</a></div>
+      </div>
+    </div>    
+  </div>
+
+<div class="container2" data-aos="fade-up"
+     data-aos-duration="3000">
+<div class="left-side">
+      <h2>The 2 Main Qualities of the International Phonetic Alphabet:</h2>
+      <p>
+        The IPA has a one-to-one relationship between sound and symbols, meaning each symbol has only one way to be read correctly.
+        It represents all the sounds in the world’s languages.
+      </p>
+    </div>
+    <div class="right-side">
+      <h2>Why should I learn the IPA?</h2>
+      <p>
+        Phonetic Accuracy: If you know IPA you can read the correct pronunciation for any word and also become aware of subtle differences. Knowing the precise pronunciation of words and sounds reduces miscommunication.
+        <br><br>
+        Language Learning: The IPA helps you to acquire new languages and dialects accurately.
+        <br><br>
+        Teaching and Learning: Knowing Phonetics helps educators and learners in language instruction.
+        <br><br>
+        Transcription: Linguists use the IPA when transcribing spoken language.
+        <br><br>
+        Articulation: Assists in understanding and improving speech and articulation. Understanding how exactly a sound is made helps your understanding of language.
+        <br><br>
+        Communication: The IPA is also useful for different fields like speech therapy, acting, and singing.
+        <br><br>
+        Global Understanding: Facilitates understanding and comparison of human speech and world languages.
+      </p>
+    </div>
+	</div> 
+ 
+	
+<style>
+body {
+  margin: 0;
+  font-family: 'Input Mono', monospace;
+}
+
+.container {
+  display: flex;
+}
+
+.image-section {
+  flex: 1;
+  margin-right: 0;
+  margin-top: 30px;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.content-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; 
+    }
+
+h1 {
+  text-align: left;
+  font-size: 110px;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 10px; 
+  font-family: input-mono, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+	
+h3 {
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 20px 0; 
+  font-family: input-mono, monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+ .shapes {
+      display: flex;
+      flex-direction: row; 
+      align-items: center;
+      justify-content: center;
+    }
+
+.shape {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  border: 1.75px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+.vowel-shape:hover {
+  color: #F52F74;
+  border-color: #F52F74;
+}
+
+.consonant-shape:hover {
+  color: #0074D6;
+  border-color: #0074D6;
+}
+
+.anatomy-shape:hover {
+  color: #FCA603;
+  border-color: #FCA603;
+}
+.container {
+	  height: 100vh;
+      overflow-y: scroll;
+      display: flex;
+    }
+
+    .right-side {
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+	  font-family: 'Input Mono', monospace;
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+.container2 {
+      height: 90vh;
+      overflow-y: scroll;
+	  align-items: flex-start;
+	  margin-top: -50px;
+    }
+	
+
+    .left-side, .right-side {
+      flex: 1;
+      padding: 20px;
+    }
+	
+  .shape:hover a {
+  color: inherit; 
+  text-decoration: none;
+}
+@media screen and (max-width: 520px) {
+  body {
+    font-size: 14px; /* Adjust font size for better readability on smaller screens */
+  }
+  h1 {
+  text-align: left;
+  font-size: 80px;}
+   h3 {
+  font-size: 18px;  
+	}
+	
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .content-section {
+    order: 1; /* Move content section above the image on smaller screens */
+  }
+
+  .image-section img {
+    max-width: 100%; 
+	margin-top: -10px;
+  }
+
+ .shape {
+    width: 100%; 
+    margin: 10px 0; 
+    padding: 10px; 
+    box-sizing: border-box; 
+	margin: 5px;
+    border: 1.75px solid #000;
+    font-size: 18px;
+  }
+
+  .left-side, .right-side {
+    padding: 10px; 
+  }
+  .container2 {
+      margin-bottom: 30px;
+	  margin-top: 10px;
+    }
+}
+</style>	
+
+</body>
+</html>
